@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>星靈王 Web Final</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="title">星靈王 Web Final</div>
+  <select id="deckSelect">
+    <option value="喵喵賊">喵喵賊</option>
+    <option value="妖怪村莊">妖怪村莊</option>
+    <option value="藝術品">藝術品</option>
+  </select>
+  <button id="newGameBtn">開始 / 重洗</button>
+  <button id="nextPhaseBtn">下一階段</button>
+  <button id="phaseChoiceBtn">階段選擇</button>
+  <button id="endActionPhaseBtn">結束目前階段</button>
+  <button id="effectGuideBtn">效果說明</button>
+  <button id="formationModeBtn">戰術佈陣</button>
+  <button id="attackModeBtn">進攻宣言</button>
+  <button id="targetModeBtn">指定目標</button>
+  <button id="resolveCombatBtn">結算戰鬥</button>
+  <button id="enemyTestBtn">對手鋪場</button>
+  <button id="littleTravelerBtn">小旅人</button>
+  <button id="readyPhaseBtn">整備</button>
+  <button id="discardModeBtn">棄牌</button>
+  <button id="passTurnBtn">回合結束</button>
+  <button id="scoreBtn">計分</button>
+  
+  <button id="tributeSummonBtn" class="tribute-main-btn">召喚</button>
+  <button id="tributeConfirmBtn" class="tribute-main-btn">確認獻祭</button>
+  <button id="tributeCancelBtn" class="tribute-main-btn">取消獻祭</button>
+  <span id="status"></span>
+
+</header>
+<div id="phaseDisplayPanel" class="phase-display-panel">
+  <div class="phase-main">目前階段：<span id="phaseDisplayText">召喚階段</span></div>
+  <div class="phase-sub" id="phaseHelpText">回合開始已自動抽牌。可召喚單位或進行祭品召喚。</div>
+</div>
+
+<div class="game-shell">
+  <section class="left-panel">
+    <div class="panel-title">系統資訊</div>
+    <div>階段：<b id="phase">召喚階段</b></div>
+    <div>回合：<b id="turn">1</b></div>
+    <div>手牌：<b id="handCount">0</b> / 10</div>
+    <div class="small">操作：拖曳免祭品單位到我方前排/後排。點擊任一卡片可看大圖。</div>
+  </section>
+
+  <section id="boardWrap" class="board-wrap">
+    <div class="board">
+      <div id="enemyDeck" class="zone side red">牌庫</div>
+      <div id="enemyGrave" class="zone side dark">墓地</div>
+
+      <div class="row enemy-back"></div>
+      <div class="row enemy-front"></div>
+
+      <div id="enemyForest" class="zone side green right-top">森林區<br>小旅人∞</div>
+      <div id="enemyField" class="zone side green right-mid">場地區</div>
+
+      <div id="enemyRace" class="zone side red race-left">對手<br>種族</div>
+      <div id="battleLine" class="battle-line-strip">
+        <div class="battle-cell">★1</div>
+        <div class="battle-cell">★2</div>
+        <div class="battle-cell">★3</div>
+        <div class="battle-cell">★4</div>
+        <div class="battle-cell">★5</div>
+      </div>
+      <div id="playerRace" class="zone side blue race-right">我方<br>種族</div>
+
+      <div class="row player-front"></div>
+      <div class="row player-back"></div>
+
+      <div id="playerField" class="zone side green left-player-top">場地區</div>
+      <div id="playerForest" class="zone side green left-player-bottom">森林區<br>小旅人∞</div>
+      <div id="playerGrave" class="zone side dark player-right-top">墓地</div>
+      <div id="playerDeck" class="zone side blue player-right-bottom">牌庫</div>
+    </div>
+  </section>
+</div>
+
+<section class="hand-panel">
+  <div class="hand-title">手牌</div>
+  <div id="hand" class="hand"></div>
+</section>
+
+<div id="cardModal" class="modal">
+  <div class="modal-inner">
+    <button id="closeModal" class="close">×</button>
+    <img id="modalImg" alt="card">
+    <div id="modalInfo"></div>
+  </div>
+</div>
+
+<script src="/static/game.js"></script>
+
+<div id="scorePanel" class="score-panel">
+  <div class="score-box">
+    <button id="closeScorePanel" class="close">×</button>
+    <h2>對戰狀態</h2>
+    <div id="scoreContent"></div>
+  </div>
+</div>
+
+<div id="effectGuidePanel" class="effect-guide-panel">
+  <div class="effect-guide-box">
+    <button id="closeEffectGuide" class="close">×</button>
+    <h2>進階規則說明</h2>
+    <div class="effect-guide-content">
+      <h3>正式回合流程</h3>
+      <p>抽牌 / 召喚階段 → 二選一：戰術佈陣 或 進攻宣言 → 結算階段 → 回合結束。</p>
+      <p><b>戰術佈陣</b>與<b>進攻宣言</b>不會同時存在。召喚階段結束後只能選一個。</p>
+      <h3>目前支援的效果引擎</h3>
+      <p>可支援 onSummon、onAttack、onDestroy、passiveScore。</p>
+      <p>系統會依卡片效果文字粗略轉換，例如「抽1張」、「抽2張」、「加分」、「前排+1」。</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

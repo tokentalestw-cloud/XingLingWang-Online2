@@ -1,0 +1,2 @@
+Line 4871: action: "goat_spell_resolved",
+Line 6045: } else if (data.action === "goat_spell_resolved") {

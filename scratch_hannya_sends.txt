@@ -1,0 +1,2 @@
+Line 6410: action: "hannya_evolve_sync",
+Line 6420: } else if (data.action === "hannya_evolve_sync") {

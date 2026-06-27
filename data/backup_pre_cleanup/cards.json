@@ -1,0 +1,8693 @@
+[
+  {
+    "id": "ART-0001",
+    "name": "萌娜麗莎的大笑",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 6,
+    "score": 3,
+    "tribute": 8,
+    "keywords": [
+      "敵方魔法抗性",
+      "橫放",
+      "破壞抗性"
+    ],
+    "effect_text": "此卡不會被敵方魔法卡選為目標且若處於橫放，將不會被破壞。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0001.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0002",
+    "name": "大鵰像",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 0,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "阻擋",
+      "相鄰強化"
+    ],
+    "effect_text": "阻擋。此卡左右邊的單位 +2 攻擊力。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0002.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0003",
+    "name": "沉思的男人",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 0,
+    "score": 0,
+    "tribute": -2,
+    "keywords": [
+      "阻擋",
+      "敵方場上",
+      "不可獻祭",
+      "不可移動"
+    ],
+    "effect_text": "阻擋。此卡可打出或召喚至敵方場上，此單位不得被獻祭或移動。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0003.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0004",
+    "name": "吶喊的人",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 4,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "貫穿"
+    ],
+    "effect_text": "貫穿。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0004.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0005",
+    "name": "鎧甲擺件",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 3,
+    "score": 0,
+    "tribute": 3,
+    "keywords": [
+      "魔法抗性"
+    ],
+    "effect_text": "此卡不會被魔法卡選為目標。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0005.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0006",
+    "name": "了讚的藝術收藏家",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 4,
+    "score": 1,
+    "tribute": 4,
+    "keywords": [
+      "立即",
+      "檢索"
+    ],
+    "effect_text": "立即：查看牌庫頂2張牌，使其中任意藝術品牌展示並加入手牌，其餘以任意順序放回牌庫頂。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0006.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0007",
+    "name": "兩位陌生人",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 4,
+    "score": 1,
+    "tribute": 4,
+    "keywords": [
+      "立即",
+      "橫放"
+    ],
+    "effect_text": "立即：使場上1單位橫放。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0007.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0008",
+    "name": "珍珠少女",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 2,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "橫放",
+      "祭品"
+    ],
+    "effect_text": "橫放時，此卡可作為藝術品單位的兩個祭品。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0008.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0009",
+    "name": "梵老爹",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 8,
+    "score": 3,
+    "tribute": 6,
+    "keywords": [
+      "敵方魔法抗性",
+      "破壞抗性"
+    ],
+    "effect_text": "敵方魔法抗性。破壞抗性。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0009.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0010",
+    "name": "向日葵小妹",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 3,
+    "score": 0,
+    "tribute": 3,
+    "keywords": [
+      "立即",
+      "破壞場地"
+    ],
+    "effect_text": "立即：使敵方場地卡被破壞。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0010.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0011",
+    "name": "拿波崙",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 3,
+    "score": 0,
+    "tribute": 3,
+    "keywords": [
+      "弱化"
+    ],
+    "effect_text": "此卡前方所有敵方單位 -2 攻擊力。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0011.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0012",
+    "name": "頸部痠痛的女人",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 0,
+    "score": 0,
+    "tribute": 4,
+    "keywords": [
+      "敵方魔法抗性",
+      "橫放",
+      "破壞抗性"
+    ],
+    "effect_text": "此卡不會被敵方魔法卡選為目標且若處於橫放，將不會被破壞。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0012.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0013",
+    "name": "創世男孩",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 3,
+    "score": 0,
+    "tribute": 1,
+    "keywords": [
+      "連動",
+      "加分",
+      "敵方魔法抗性"
+    ],
+    "effect_text": "「創世老人」在此卡右邊時，使此卡 +3⭐ 且被賦予不會被敵方魔法卡選為目標。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0013.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0014",
+    "name": "創世老人",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 1,
+    "score": 0,
+    "tribute": 3,
+    "keywords": [
+      "連動",
+      "攻擊力上升",
+      "敵方魔法抗性"
+    ],
+    "effect_text": "「創世男孩」在此卡左邊時，使此卡 +4 攻擊力且被賦予不會被敵方魔法卡選為目標。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0014.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0015",
+    "name": "番茄之子",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 4,
+    "score": 2,
+    "tribute": 6,
+    "keywords": [
+      "敵方魔法抗性",
+      "橫放",
+      "破壞抗性"
+    ],
+    "effect_text": "此卡不會被敵方魔法卡選為目標且若處於橫放，將不會被破壞。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0015.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0016",
+    "name": "摩艾石巨像",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 4,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "敵方魔法抗性",
+      "戰鬥成功",
+      "橫放"
+    ],
+    "effect_text": "此卡不會被敵方魔法卡選為目標且戰鬥成功時，使場上1單位橫放。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0016.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0017",
+    "name": "尿尿小男童",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 4,
+    "score": 0,
+    "tribute": 1,
+    "keywords": [
+      "遠程攻擊",
+      "戰鬥成功",
+      "小旅人"
+    ],
+    "effect_text": "遠程攻擊。進攻時戰鬥成功，召喚1個小旅人。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0017.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0018",
+    "name": "畫框",
+    "deck": "藝術品",
+    "type": "spell",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 0,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "消耗",
+      "祭品減少"
+    ],
+    "effect_text": "召喚階段：使你手牌的藝術品單位所需祭品 -1 直到本回合召喚階段結束時。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0018.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "消耗",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0019",
+    "name": "博物館",
+    "deck": "藝術品",
+    "type": "spell",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 0,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "場地",
+      "主要階段",
+      "防守強化"
+    ],
+    "effect_text": "主要階段：戰鬥時，使你場上的藝術品防守單位 +1 攻擊力。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0019.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "場地",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0020",
+    "name": "星空",
+    "deck": "藝術品",
+    "type": "spell",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 0,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "消耗",
+      "反制",
+      "破壞"
+    ],
+    "effect_text": "敵方打出單位時：使該單位被破壞且無效化該單位立即效果。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0020.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "消耗",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0021",
+    "name": "拾穗者",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 5,
+    "score": 2,
+    "tribute": 3,
+    "keywords": [
+      "立即",
+      "墓地召喚"
+    ],
+    "effect_text": "立即：使你墓地1張無需祭品的藝術品單位卡被召喚。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0021.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0022",
+    "name": "紅色顏料",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 2,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "顏料",
+      "祭品"
+    ],
+    "effect_text": "若你墓地有其他顏料，此卡可作為藝術品單位的兩個祭品。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0022.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "顏料",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0023",
+    "name": "綠色顏料",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 0,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "顏料",
+      "祭品"
+    ],
+    "effect_text": "若你場上有其他顏料，此卡可作為藝術品單位的兩個祭品。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0023.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "顏料",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0024",
+    "name": "藍色顏料",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 1,
+    "score": 0,
+    "tribute": 1,
+    "keywords": [
+      "顏料",
+      "祭品"
+    ],
+    "effect_text": "選擇祭品時若你展示手牌其他顏料，則此單位可作為藝術品單位的兩個祭品。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0024.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "顏料",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0025",
+    "name": "牆壁上的香蕉",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": -4,
+    "score": 0,
+    "tribute": -1,
+    "keywords": [
+      "保護",
+      "獎勵"
+    ],
+    "effect_text": "此卡左右邊的單位不會被破壞及被進攻；此卡被破壞時，獎勵 +3。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0025.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0026",
+    "name": "和平使者 耶叔",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 7,
+    "score": 0,
+    "tribute": 7,
+    "keywords": [
+      "限制打出",
+      "封鎖進攻",
+      "抗性"
+    ],
+    "effect_text": "你的主要階段，若你的後排戰線有3個或以上的最後的單位，才可從你手牌打出此卡。使敵方玩家不得進攻。此卡不會被敵方單位效果及敵方魔法卡選為目標。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0026.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0027",
+    "name": "最後的下午茶",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 1,
+    "score": 0,
+    "tribute": 1,
+    "keywords": [
+      "立即",
+      "最後的",
+      "檢索"
+    ],
+    "effect_text": "立即：從你牌庫尋找1張最後的單位展示並加入手牌，然後重洗牌庫。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0027.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0028",
+    "name": "最後的宵夜",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 2,
+    "score": 0,
+    "tribute": 1,
+    "keywords": [
+      "立即",
+      "最後的",
+      "回收"
+    ],
+    "effect_text": "立即：使你墓地1張最後的單位回手牌。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0028.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0029",
+    "name": "最後的中餐",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 1,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "立即",
+      "最後的",
+      "召喚"
+    ],
+    "effect_text": "立即：展示你牌庫頂X張牌，若是最後的單位則使其被召喚，否則依任意順序放回牌庫頂。X=你場上最後的單位數量。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0029.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0030",
+    "name": "最後的早餐",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 1,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "抽牌",
+      "洗回牌庫",
+      "戰鬥破壞抗性"
+    ],
+    "effect_text": "你的主要階段，可展示手牌中的此卡並抽1張牌，然後使此卡被洗回牌庫。此卡不會被戰鬥破壞。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0030.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0031",
+    "name": "博物館保全",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 4,
+    "score": 1,
+    "tribute": 5,
+    "keywords": [
+      "後排召喚"
+    ],
+    "effect_text": "你的藝術品單位可打出或召喚在後排戰線。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0031.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0032",
+    "name": "實習畫家",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 2,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "立即",
+      "顏料",
+      "代替破壞"
+    ],
+    "effect_text": "立即：從你牌庫或墓地尋找1顏料單位展示並加入手牌，然後重洗牌庫。此單位被破壞時，可棄掉手中1顏料單位代替破壞。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0032.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0033",
+    "name": "流浪畫家",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 3,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "顏料",
+      "祭品"
+    ],
+    "effect_text": "你的召喚階段選擇祭品時限一次，可將手牌1顏料單位作為非人型藝術品單位的1個祭品。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0033.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0034",
+    "name": "前台服務生",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 3,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "立即",
+      "最後的",
+      "移動"
+    ],
+    "effect_text": "立即：使你前排戰線所有最後的單位移動至你後排戰線的任意位置。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0034.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0035",
+    "name": "香蕉猴",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 0,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "阻擋",
+      "不可獻祭",
+      "移動",
+      "獎勵"
+    ],
+    "effect_text": "阻擋。無法被獻祭。你的主要階段開始時，使此單位移動至敵方場上任意位置，若成功則獎勵 +1。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0035.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0036",
+    "name": "黑心網路賣家",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 3,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "獎勵",
+      "敵方場上"
+    ],
+    "effect_text": "你將藝術品單位打出／召喚／移動至敵方場上時，獎勵 +1。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0036.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0037",
+    "name": "牽性龐克",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 5,
+    "score": 4,
+    "tribute": 10,
+    "keywords": [
+      "敵方魔法抗性",
+      "敵方效果抗性",
+      "橫放",
+      "破壞抗性"
+    ],
+    "effect_text": "敵方魔法抗性。敵方效果抗性。若此單位處於橫放，則被賦予破壞抗性。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0037.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0038",
+    "name": "金衣服的女人",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 5,
+    "score": 3,
+    "tribute": 4,
+    "keywords": [
+      "敵方魔法抗性",
+      "橫放",
+      "加分"
+    ],
+    "effect_text": "敵方魔法抗性。你場上每個橫放的藝術品單位使此單位 +1⭐。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0038.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0039",
+    "name": "博物館館長 迪斯麥",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 4,
+    "score": 2,
+    "tribute": 4,
+    "keywords": [
+      "橫放",
+      "非人型"
+    ],
+    "effect_text": "你的主要階段限一次，你打出或召喚非人型藝術品單位時，可使該單位被橫放。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0039.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0040",
+    "name": "詛咒斷臂雕像",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 2,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "衰退"
+    ],
+    "effect_text": "衰退。使此單位前後方的第一個單位被賦予衰退。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0040.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0041",
+    "name": "博物館接待員",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 3,
+    "score": 0,
+    "tribute": 1,
+    "keywords": [
+      "橫放",
+      "小旅人"
+    ],
+    "effect_text": "一回合限一次，你場上的藝術品單位被橫放時，你召喚1個小旅人。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0041.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0042",
+    "name": "哭泣女人",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 2,
+    "score": 1,
+    "tribute": 5,
+    "keywords": [
+      "敵方魔法抗性",
+      "橫放",
+      "破壞抗性"
+    ],
+    "effect_text": "敵方魔法抗性。若此單位處於橫放，則被賦予破壞抗性。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0042.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0043",
+    "name": "蜘蛛魔盜團團長 芙蘭",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 4,
+    "score": 4,
+    "tribute": 2,
+    "keywords": [
+      "立即",
+      "綁架",
+      "除外",
+      "獎勵"
+    ],
+    "effect_text": "立即：使你手牌1張所需祭品數為4或以下的非人型藝術品單位卡被綁架。此單位離場後，使被此單位綁架的單位卡改為被除外，並使你獎勵+X。X=該卡的所需祭品數。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0043.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "強盜/人型",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0044",
+    "name": "太極雕像",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 3,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "橫放",
+      "轉正"
+    ],
+    "effect_text": "你的主要階段開始時限一次，可使此單位被橫放，若成功則使你場上1個其他單位被轉正；或可使此單位被轉正，若成功則使你場上1個其他單位被橫放。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0044.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0045",
+    "name": "調色盤",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 3,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "顏料",
+      "召喚"
+    ],
+    "effect_text": "你的結束階段時，使你手牌或墓地的1張無需祭品的顏料單位卡被召喚。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0045.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "顏料",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0046",
+    "name": "牆壁上的塗鴉",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 0,
+    "score": 5,
+    "tribute": 12,
+    "keywords": [
+      "阻擋",
+      "顏料",
+      "抗性"
+    ],
+    "effect_text": "阻擋。敵方魔法抗性。敵方效果抗性。此卡的祭品須為顏料單位。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0046.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0047",
+    "name": "最後的麵包與酒",
+    "deck": "藝術品",
+    "type": "spell",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 0,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "消耗",
+      "最後的",
+      "檢索"
+    ],
+    "effect_text": "主要階段：從你牌庫尋找「和平使者 耶叔」並加入手牌，或使你手牌1張無需祭品的最後的單位卡被額外打出。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0047.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "消耗",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0048",
+    "name": "守護的斷臂雕像",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 3,
+    "score": 0,
+    "tribute": 3,
+    "keywords": [
+      "轉正",
+      "位置互換"
+    ],
+    "effect_text": "你的主要階段限一次，可使你場上1個單位被轉正，若成功則使該單位與此單位位置互換。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0048.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0049",
+    "name": "顏料藝術家",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 3,
+    "score": 0,
+    "tribute": 3,
+    "keywords": [
+      "顏料",
+      "祭品強化"
+    ],
+    "effect_text": "你場上的顏料單位發動其效果作為2個祭品時，可改為使其作為3個祭品。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0049.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "顏料",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0050",
+    "name": "博物館剪票員",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 3,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "橫放",
+      "小旅人",
+      "非人型"
+    ],
+    "effect_text": "你的主要階段開始時限一次，可使此單位被橫放，若成功則你召喚X個小旅人。X=你場上非人型藝術品單位數量。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0050.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0051",
+    "name": "翡翠白菜",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 2,
+    "score": 13,
+    "tribute": 12,
+    "keywords": [
+      "人型",
+      "祭品減少"
+    ],
+    "effect_text": "你場上的每個人型藝術品單位使你手牌的此卡所需祭品數 -3。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0051.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0052",
+    "name": "蜘蛛魔盜團 千面",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 5,
+    "score": 1,
+    "tribute": 4,
+    "keywords": [
+      "回手",
+      "綁架",
+      "小旅人"
+    ],
+    "effect_text": "你的主要階段限一次，可使你場上1個其他人型藝術品單位回手牌，若成功則你召喚X個小旅人；若該單位有綁架卡牌，則在回手前使該卡牌以橫放狀態被召喚至持有者場上。X=該單位的所需祭品數 +1。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0052.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "強盜/人型",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0053",
+    "name": "蜘蛛魔盜團 銷贓",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 2,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "綁架",
+      "洗回牌庫",
+      "獎勵"
+    ],
+    "effect_text": "你的主要階段限一次，可使1張你綁架的卡牌洗回持有者牌庫並使你獎勵+X。X=被洗回牌庫的卡牌⭐。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0053.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "強盜/人型",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0054",
+    "name": "蜘蛛魔盜團間諜 迪斯麥",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 4,
+    "score": 2,
+    "tribute": 4,
+    "keywords": [
+      "升級",
+      "強盜",
+      "綁架"
+    ],
+    "effect_text": "回合結束時，若你場上有至少2個橫放的非人型藝術品單位，則可使你場上的「博物館館長 迪斯麥」升級為此卡。升級為此卡時，可從你牌庫或墓地尋找1張強盜單位卡並加入手牌。你的主要階段開始時限一次，可使你手牌1張所需祭品數為2或以下的非人型藝術品單位卡被綁架。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0054.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "強盜/人型",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0055",
+    "name": "蜘蛛魔盜團 鎖頭",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 4,
+    "score": 0,
+    "tribute": 1,
+    "keywords": [
+      "綁架",
+      "橫放",
+      "小旅人"
+    ],
+    "effect_text": "你的主要階段限一次，可使你場上1個非人型藝術品單位被你場上另1個綁架單位綁架，若綁架的單位為橫放狀態，則使你召喚2個小旅人。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0055.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "強盜/人型",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0056",
+    "name": "蜘蛛魔盜團 換日",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 4,
+    "score": 1,
+    "tribute": 2,
+    "keywords": [
+      "立即",
+      "綁架",
+      "交換",
+      "強盜"
+    ],
+    "effect_text": "立即：使你手牌1張無需祭品的非人型藝術品單位卡被綁架。你的主要階段開始時限一次，可使你場上1個非人型藝術品單位與你綁架的1張卡牌交換，若該單位為橫放狀態，則使你手牌1張無需祭品的強盜單位卡被額外打出。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0056.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "強盜/人型",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0057",
+    "name": "蜘蛛魔盜團 抓手",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 1,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "綁架",
+      "橫放",
+      "獎勵"
+    ],
+    "effect_text": "你的主要階段限一次，可使你場上1個非人型藝術品單位被綁架，若該單位為橫放，則獎勵 +2。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0057.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "強盜/人型",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0058",
+    "name": "蜘蛛魔盜團 駭客",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 1,
+    "score": 0,
+    "tribute": 2,
+    "keywords": [
+      "後排",
+      "強盜",
+      "抗性"
+    ],
+    "effect_text": "此卡可打出或召喚至後排戰線。使你場上所有強盜單位被賦予敵方魔法抗性及敵方效果抗性。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0058.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "強盜/人型",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0059",
+    "name": "始皇帝",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 6,
+    "score": 3,
+    "tribute": 6,
+    "keywords": [
+      "獻祭限制",
+      "敵方魔法抗性",
+      "橫放",
+      "陶俑"
+    ],
+    "effect_text": "此卡獻祭打出前，你場上的單位須皆未橫放。敵方魔法抗性。你的主要階段限一次，可使場上1個單位被橫放，若成功則使你額外區1張陶俑單位卡被召喚。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0059.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0060",
+    "name": "戰士陶俑",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 3,
+    "score": 5,
+    "tribute": 1,
+    "keywords": [
+      "陶俑",
+      "敵方魔法抗性",
+      "橫放",
+      "獎勵"
+    ],
+    "effect_text": "敵方魔法抗性。此單位被橫放時，獎勵 +1。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0060.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0061",
+    "name": "三腳鼎",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 3,
+    "score": 0,
+    "tribute": 3,
+    "keywords": [
+      "破壞抗性",
+      "橫放",
+      "轉正"
+    ],
+    "effect_text": "破壞抗性。此單位橫放後，使此單位被轉正。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0061.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "ART-0062",
+    "name": "害羞的斑點南瓜",
+    "deck": "藝術品",
+    "type": "unit",
+    "faction": "藝術品",
+    "race": "藝術品",
+    "attack": 0,
+    "score": 1,
+    "tribute": 4,
+    "keywords": [
+      "阻擋",
+      "敵方效果抗性",
+      "橫放",
+      "獎勵"
+    ],
+    "effect_text": "阻擋。敵方效果抗性。你場上的藝術品單位被橫放時，獎勵 +1。",
+    "rarity": "R",
+    "image": "/static/card_images/art_0062.jpeg",
+    "deck_eligible": true,
+    "art_subtype": "藝術品",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "C-CAT-0033",
+    "name": "易怒喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0033.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "C-CAT-0054",
+    "name": "手賤喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0054.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "C-CAT-0055",
+    "name": "易怒喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0055.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0001",
+    "name": "靴喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0001.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0002",
+    "name": "喵媽媽",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_002.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0003",
+    "name": "驚喜喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "3",
+    "score": 3,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "你的其他單位偷襲成功時，可從手牌額外打出此卡。",
+    "image": "/static/card_images/cat_0003.jpeg",
+    "original_file": "喵喵賊/IMG_5811.JPG",
+    "deck_eligible": true,
+    "reward": null,
+    "effect": "",
+    "variant": false,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0004",
+    "name": "虎老大",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "7",
+    "score": 7,
+    "tribute": 2,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "當敵方防守階段你有2個或以上的單位偷襲成功，可從手牌額外打出此卡。",
+    "image": "/static/card_images/cat_0004.jpeg",
+    "original_file": "喵喵賊/IMG_5810.JPG",
+    "deck_eligible": true,
+    "reward": null,
+    "effect": "",
+    "variant": false,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0005",
+    "name": "綠喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_005.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0006",
+    "name": "導遊喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_006.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0007",
+    "name": "瘟疫喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_007.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0008",
+    "name": "老喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "4",
+    "score": 5,
+    "tribute": 1,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "你的其他單位偷襲成功時，可從手牌額外打出此卡。",
+    "image": "/static/card_images/cat_0008.jpeg",
+    "original_file": "喵喵賊/IMG_5809.JPG",
+    "deck_eligible": true,
+    "reward": null,
+    "effect": "",
+    "variant": false,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0009",
+    "name": "保喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0009.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0010",
+    "name": "粉喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0010.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0011",
+    "name": "黑喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0011.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0012",
+    "name": "喵玩具",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0012.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0013",
+    "name": "忍喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0013.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0014",
+    "name": "叮噹喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_014.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0015",
+    "name": "騎士喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "4",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "使被此卡戰鬥破壞的單位被除外，該單位被賦予的所有魔法卡則進入墓地。",
+    "image": "/static/card_images/cat_0015.jpeg",
+    "original_file": "喵喵賊/IMG_5807.JPG",
+    "deck_eligible": true,
+    "reward": null,
+    "effect": "",
+    "variant": false,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0016",
+    "name": "飄飄喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_016.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0017",
+    "name": "跳跳箱",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_017.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0018",
+    "name": "虐傭兵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0018.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0020",
+    "name": "捕喵網",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_020.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0023",
+    "name": "醫療喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "5",
+    "score": 5,
+    "tribute": 1,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "此卡偷襲成功時，使你墓地2張喵喵賊單位被召喚。",
+    "image": "/static/card_images/cat_0023.jpeg",
+    "original_file": "喵喵賊/IMG_5796.JPG",
+    "deck_eligible": true,
+    "reward": null,
+    "effect": "",
+    "variant": false,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT-0024",
+    "name": "喵女",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0024.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_0001",
+    "name": "靴喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 4,
+    "score": 3,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "偷襲",
+    "image": "/static/card_images/cat_0001.jpeg",
+    "original_file": "喵喵賊/IMG_6055.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_0004",
+    "name": "虎老大",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "7",
+    "score": 7,
+    "tribute": 2,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "當敵方防守階段你有2個或以上的單位偷襲成功，可從手牌額外打出此卡",
+    "image": "/static/card_images/cat_0004.jpeg",
+    "original_file": "喵喵賊/IMG_6049.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": ""
+  },
+  {
+    "id": "CAT_0009",
+    "name": "保喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "3",
+    "score": 3,
+    "tribute": 0,
+    "keywords": [
+      "偷襲",
+      "敵方魔法抗性"
+    ],
+    "effect_text": "立即: 使你偷襲單位被賦予敵方魔法抗性 直到下回合敵方防守階段結束時",
+    "image": "/static/card_images/cat_0009.jpeg",
+    "original_file": "喵喵賊/IMG_6042.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": ""
+  },
+  {
+    "id": "CAT_001",
+    "name": "靴喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 4,
+    "score": 3,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "偷襲",
+    "image": "/static/card_images/cat_001.jpeg",
+    "original_file": "喵喵賊/IMG_6054.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_0010",
+    "name": "火野貝 粉喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 4,
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "偷襲\n此卡偷襲成功時，\n抽1張牌",
+    "image": "/static/card_images/cat_0010.jpeg",
+    "original_file": "喵喵賊/IMG_6040.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_0011",
+    "name": "黑喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 6,
+    "score": 3,
+    "tribute": 1,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "此卡偷襲成功時，使敵方場上1單位被破壞",
+    "image": "/static/card_images/cat_0011.jpeg",
+    "original_file": "喵喵賊/IMG_6037.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_0012",
+    "name": "喵玩具",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "-2",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "(可打在敵方場上)\n此卡進入墓地時\n會回到持有人手牌",
+    "image": "/static/card_images/cat_0012.jpeg",
+    "original_file": "喵喵賊/IMG_6036.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": ""
+  },
+  {
+    "id": "CAT_0013",
+    "name": "忍喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "3",
+    "score": 3,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "你的主要階段開始時，若敵方場上單位總數為5或以上時，可從手牌額外打出此卡",
+    "image": "/static/card_images/cat_0013.jpeg",
+    "original_file": "喵喵賊/IMG_6035.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_0018",
+    "name": "雇傭兵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "盾",
+    "score": 3,
+    "tribute": 0,
+    "keywords": [
+      "偷襲",
+      "喵喵賊",
+      "消耗"
+    ],
+    "effect_text": "你的單位偷襲成功時\n展示牌庫頂的3張牌,使其中 喵喵賊 單位加入手牌, 其餘以順序放回牌庫頂",
+    "image": "/static/card_images/cat_0018.jpeg",
+    "original_file": "喵喵賊/IMG_6030.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_002",
+    "name": "喵喵媽",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 4,
+    "score": 4,
+    "tribute": 1,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "立即:下回合敵方防守階段時,使被破壞的所有我方偷襲單位改為回手牌",
+    "image": "/static/card_images/cat_002.jpeg",
+    "original_file": "喵喵賊/IMG_6052.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_0023",
+    "name": "醫療喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 5,
+    "score": 5,
+    "tribute": 1,
+    "keywords": [
+      "偷襲",
+      "喵喵賊"
+    ],
+    "effect_text": "此卡偷襲成功時，使你墓地2喵喵賊單位被召喚",
+    "image": "/static/card_images/cat_0023.jpeg",
+    "original_file": "喵喵賊/IMG_6026.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_0024",
+    "name": "喵女",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 4,
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "偷襲",
+      "喵喵賊"
+    ],
+    "effect_text": "立即:從手牌額外打出1無需祭品的偷襲單位",
+    "image": "/static/card_images/cat_0024.jpeg",
+    "original_file": "喵喵賊/IMG_6024(1).JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_0027",
+    "name": "草叢喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 2,
+    "score": 2,
+    "tribute": 2,
+    "keywords": [
+      "偷襲",
+      "喵喵賊"
+    ],
+    "effect_text": "你的主要階段開始時，若你的牌庫有牌，則使你墓地的此卡洗回牌庫",
+    "image": "/static/card_images/cat_0027.jpeg",
+    "original_file": "喵喵賊/IMG_6021.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_0028",
+    "name": "破甲喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 5,
+    "score": 3,
+    "tribute": 2,
+    "keywords": [
+      "破甲",
+      "阻擋",
+      "喵喵賊"
+    ],
+    "effect_text": "破甲 此單位進攻戰鬥破壞 阻擋 單位時,若該單位 後方有單位,則可使此單位 維持進攻狀態",
+    "image": "/static/card_images/cat_0028.jpeg",
+    "original_file": "喵喵賊/IMG_6020.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_003",
+    "name": "殭屍喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "attack": 4,
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "此卡偷襲成功時，可使你手牌1張喵喵賊卡牌進入墓地，若成功則使你墓地另一張喵喵賊單位卡回手牌。",
+    "image": "/static/card_images/cat_03.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_0030",
+    "name": "彩虹幻象喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "1",
+    "score": 2,
+    "tribute": 1,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "你的其他單位偷襲成功時，可從手牌棄掉此卡，並使你場上所有進攻單位被賦予+1攻擊力直到本回合主要階段開始時",
+    "image": "/static/card_images/cat_0030.jpeg",
+    "original_file": "喵喵賊/IMG_6018.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": "",
+    "art_subtype": "虛擬"
+  },
+  {
+    "id": "CAT_0033",
+    "name": "厭世喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "3",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "橫放",
+      "偷襲"
+    ],
+    "effect_text": "此單位進攻戰鬥成功而橫放時，視為此單位偷襲成功",
+    "image": "/static/card_images/cat_0033.jpeg",
+    "original_file": "喵喵賊/IMG_6058.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": ""
+  },
+  {
+    "id": "CAT_0035",
+    "name": "惡夢9命喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 9,
+    "score": 9,
+    "tribute": 4,
+    "keywords": [
+      "偷襲",
+      "喵喵賊"
+    ],
+    "effect_text": "你的其他單位偷襲成功時，若你本回合偷襲成功次數為3次或以上，則使你墓地的此卡被召喚",
+    "image": "/static/card_images/cat_0035.jpeg",
+    "original_file": "喵喵賊/IMG_6015.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_0036",
+    "name": "壞喵俱樂部 神隱喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "3",
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "偷襲\n此卡可打出或召喚至\n你的後排戰線",
+    "image": "/static/card_images/cat_0036.jpeg",
+    "original_file": "喵喵賊/IMG_6014.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": ""
+  },
+  {
+    "id": "CAT_0037",
+    "name": "喵抓板",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "-3",
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "偷襲",
+      "獻祭"
+    ],
+    "effect_text": "你的其他單位偷襲成功時，可從你手牌額外打出此卡至敵方場上。此單位不得被獻祭",
+    "image": "/static/card_images/cat_0037.jpeg",
+    "original_file": "喵喵賊/IMG_6013.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": ""
+  },
+  {
+    "id": "CAT_004",
+    "name": "虎老大",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 7,
+    "score": 7,
+    "tribute": 2,
+    "keywords": [
+      "偷襲",
+      "喵喵賊"
+    ],
+    "effect_text": "當敵方防守階段你有2個或以上的單位偷襲成功，可從手牌額外打出此卡",
+    "image": "/static/card_images/cat_004.jpeg",
+    "original_file": "喵喵賊/IMG_6048.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_0043",
+    "name": "喵喵球",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": -5,
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "喵喵賊"
+    ],
+    "effect_text": "此卡可打出或召喚至敵方場上。\n此單位戰鬥失敗時，\n敵方可使此單位由破壞改為\n與你場上的1個其他單位位置互換",
+    "image": "/static/card_images/cat_0043.jpeg",
+    "original_file": "喵喵賊/IMG_6008.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_0046",
+    "name": "負能量喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "6",
+    "score": -1,
+    "tribute": 2,
+    "keywords": [
+      "偷襲",
+      "喵喵賊",
+      "橫放",
+      "厭世喵"
+    ],
+    "effect_text": "你場上的喵喵賊單位 進攻戰鬥成功並橫放時，可視為 該單位偷襲成功2次",
+    "image": "/static/card_images/cat_0046.jpeg",
+    "original_file": "喵喵賊/IMG_6005.JPG",
+    "deck_eligible": false,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": "你的單位被橫放後，若本回合你場上 有至少2個其他單位被橫放，則可使你場上 橫放的「厭世喵」升級 為此卡",
+    "extra_deck_limit": 1
+  },
+  {
+    "id": "CAT_0047",
+    "name": "二連爪擊喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "3",
+    "score": 3,
+    "tribute": 0,
+    "keywords": [
+      "偷襲",
+      "破甲"
+    ],
+    "effect_text": "偷襲 破甲 一回合限一次，進攻的此單位在進行戰鬥破壞判定時，可使此單位維持進攻狀態並使該次戰鬥破壞被無效化，然後使此單位賦予+3攻擊力直到防守階段結束時",
+    "image": "/static/card_images/cat_0047.jpeg",
+    "original_file": "喵喵賊/IMG_6004.JPG",
+    "deck_eligible": false,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": "你的喵喵賊單位進攻戰鬥成功時，若本回合已戰鬥成功至少2次，則可使你場上的「破甲喵」升級 為此卡並加入手牌",
+    "extra_deck_limit": 1
+  },
+  {
+    "id": "CAT_0048",
+    "name": "經理喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "5",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "喵喵賊",
+      "保喵"
+    ],
+    "effect_text": "你的主要階段限一次，若你獎勵為正，則可獎勵-1並使你1張手牌被置於你牌庫底，若成功則使你場上所有喵喵賊單位被賦予敵方魔法抗性直到下回合敵方防守階段結束",
+    "image": "/static/card_images/cat_0048.jpeg",
+    "original_file": "喵喵賊/IMG_6003.JPG",
+    "deck_eligible": false,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": "敵方防守階段結束時，若本回合你額外打出的單位卡數量至少為2，則可使你場上的「保喵」升級為此卡",
+    "extra_deck_limit": 1
+  },
+  {
+    "id": "CAT_0049",
+    "name": "喵玩具店",
+    "deck": "喵喵賊",
+    "type": "magic",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "0",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "喵喵賊"
+    ],
+    "effect_text": "你的主要階段限一次，可使1張可打出或召喚至敵方場上的喵喵賊單位卡從你手牌被額外打出至敵方場上或 從你墓地回手牌",
+    "image": "/static/card_images/cat_0049.jpeg",
+    "original_file": "喵喵賊/IMG_6002.JPG",
+    "deck_eligible": true,
+    "mana": 2,
+    "usable_phases": [
+      "Main Phase"
+    ],
+    "art_subtype": "場地"
+  },
+  {
+    "id": "CAT_005",
+    "name": "綠喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 1,
+    "score": 3,
+    "tribute": 0,
+    "keywords": [
+      "劇毒",
+      "偷襲"
+    ],
+    "effect_text": "你的其他單位偷襲成功時，可從手牌額外打出此卡",
+    "image": "/static/card_images/cat_005.jpeg",
+    "original_file": "喵喵賊/IMG_6047.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_0050",
+    "name": "打手喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "4",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "偷襲",
+      "獎勵"
+    ],
+    "effect_text": "你的其他單位偷襲成功時，可從手牌額外打出此卡並使其被賦予+5攻擊力直到下個回合結束時。此卡偷襲成功時，使你獎勵+1",
+    "image": "/static/card_images/cat_0050.jpeg",
+    "original_file": "喵喵賊/IMG_6001.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": []
+  },
+  {
+    "id": "CAT_0051",
+    "name": "喵店店喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 3,
+    "score": 3,
+    "tribute": 3,
+    "keywords": [
+      "偷襲",
+      "喵喵賊"
+    ],
+    "effect_text": "立即:可使你手牌1張可打出或召喚至敵方場上的喵喵賊單位卡被額外打出至敵方場上任意位置",
+    "image": "/static/card_images/cat_0051.jpeg",
+    "original_file": "喵喵賊/IMG_5999.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_0052",
+    "name": "黑幫首喵 凱特琳",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "8",
+    "score": 2,
+    "tribute": 2,
+    "keywords": [
+      "偷襲",
+      "獎勵"
+    ],
+    "effect_text": "偷襲 你的其他單位偷襲成功時，若本回合已偷襲成功至少2次，則可從手牌額外打出此卡。此卡或你的其他單位偷襲成功時，使你獎勵+X。X=本回合偷襲成功的次數",
+    "image": "/static/card_images/cat_0052.jpeg",
+    "original_file": "喵喵賊/IMG_5997.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": []
+  },
+  {
+    "id": "CAT_0053",
+    "name": "漏食球",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "1",
+    "score": 3,
+    "tribute": 0,
+    "keywords": [
+      "禁錮"
+    ],
+    "effect_text": "禁錮 此卡可打出或召喚至敵方場上。一回合限一次，防守的此單位被戰鬥破壞時，敵方可召喚1個小旅人代替破壞",
+    "image": "/static/card_images/cat_0053.jpeg",
+    "original_file": "喵喵賊/IMG_5994.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": []
+  },
+  {
+    "id": "CAT_0054",
+    "name": "手賤喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 6,
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "使被此單位戰鬥破壞的單位改為被移動至其場上任意位置",
+    "image": "/static/card_images/cat_0054.jpeg",
+    "original_file": "喵喵賊/IMG_5993.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_006",
+    "name": "導遊喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 0,
+    "score": 1,
+    "tribute": 3,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "此卡偷襲成功時，召喚3個小旅人",
+    "image": "/static/card_images/cat_006.jpeg",
+    "original_file": "喵喵賊/IMG_6046.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_007",
+    "name": "瘟疫喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 3,
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "此卡偷襲成功時,\n棄掉敵方牌庫頂1張牌",
+    "image": "/static/card_images/cat_007.jpeg",
+    "original_file": "喵喵賊/IMG_6045.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_008",
+    "name": "喵女",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "attack": 4,
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "偷襲",
+      "立即"
+    ],
+    "effect_text": "立即：從手牌額外打出1張無需祭品的偷襲單位。",
+    "image": "/static/card_images/cat_08.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_009",
+    "name": "保喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "3",
+    "score": 3,
+    "tribute": 0,
+    "keywords": [
+      "偷襲",
+      "立即"
+    ],
+    "effect_text": "立即: 使我方偷襲單位不會被敵方魔法卡選為目標直到下回合敵方防守階段結束",
+    "image": "/static/card_images/cat_009.jpeg",
+    "original_file": "喵喵賊/IMG_6043.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_010",
+    "name": "粉喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 4,
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "偷襲\n此卡偷襲成功時，\n抽1張牌",
+    "image": "/static/card_images/cat_010.jpeg",
+    "original_file": "喵喵賊/IMG_6041.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_011",
+    "name": "黑喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "6",
+    "score": 3,
+    "tribute": 1,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "此卡偷襲成功時，使敵方場上1單位被破壞",
+    "image": "/static/card_images/cat_011.jpeg",
+    "original_file": "喵喵賊/IMG_6038.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": ""
+  },
+  {
+    "id": "CAT_012",
+    "name": "黑喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "attack": 6,
+    "score": 3,
+    "tribute": 1,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "此卡偷襲成功時，使敵方場上1單位被破壞。",
+    "image": "/static/card_images/cat_12.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_013",
+    "name": "老喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "attack": 4,
+    "score": 5,
+    "tribute": 1,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "你的其他單位偷襲成功時，可從手牌額外打出此卡。",
+    "image": "/static/card_images/cat_13.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_014",
+    "name": "叮噹喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "1",
+    "score": 5,
+    "tribute": 1,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "偷襲\n你的其他單位偷襲成功時，\n可從手牌額外打出此卡；\n此卡可打出/召喚在後排戰線",
+    "image": "/static/card_images/cat_014.jpeg",
+    "original_file": "喵喵賊/IMG_6034.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": ""
+  },
+  {
+    "id": "CAT_015",
+    "name": "驚喜喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "attack": 3,
+    "score": 3,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "你的其他單位偷襲成功時，可從手牌額外打出此卡。",
+    "image": "/static/card_images/cat_15.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_016",
+    "name": "飄飄喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "2",
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "當你有單位進入墓地時，可從手牌額外打出此卡",
+    "image": "/static/card_images/cat_016.jpeg",
+    "original_file": "喵喵賊/IMG_6032.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_017",
+    "name": "跳跳箱",
+    "deck": "喵喵賊",
+    "type": "magic",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 0,
+    "score": 0,
+    "tribute": 3,
+    "keywords": [
+      "偷襲",
+      "喵喵賊"
+    ],
+    "effect_text": "使你前排戰線所有單位\n被賦予偷襲\n(對小旅人無效)",
+    "image": "/static/card_images/cat_017.jpeg",
+    "original_file": "喵喵賊/IMG_6031.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_018",
+    "name": "法術保護",
+    "deck": "喵喵賊",
+    "type": "magic",
+    "faction": "喵喵賊",
+    "magic_type": "消耗/永久",
+    "magic_point": 2,
+    "timing": [
+      "主要階段",
+      "防守階段"
+    ],
+    "keywords": [],
+    "effect_text": "使敵方1魔法卡無效化（須在打出當下使用），或使1單位被賦予不會被敵方魔法卡選為目標。",
+    "image": "/static/card_images/cat_18.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ],
+    "attack": "0",
+    "tribute": 0,
+    "score": 0
+  },
+  {
+    "id": "CAT_019",
+    "name": "脫逃",
+    "deck": "喵喵賊",
+    "type": "magic",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "0",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "使你在本次進攻時所有被破壞的單位改為回手牌",
+    "image": "/static/card_images/cat_019.jpeg",
+    "original_file": "喵喵賊/IMG_6029.JPG",
+    "deck_eligible": true,
+    "mana": 3,
+    "usable_phases": [
+      "Enemy Phase"
+    ],
+    "trigger_condition": "",
+    "art_subtype": "消耗"
+  },
+  {
+    "id": "CAT_020",
+    "name": "捕喵網",
+    "deck": "喵喵賊",
+    "type": "magic",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "0",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "喵喵賊"
+    ],
+    "effect_text": "從你牌庫尋找1張喵喵賊單位展示並加入手牌,然後重洗牌庫",
+    "image": "/static/card_images/cat_020.jpeg",
+    "original_file": "喵喵賊/IMG_6028.JPG",
+    "deck_eligible": true,
+    "mana": 2,
+    "usable_phases": [
+      "Main Phase"
+    ],
+    "trigger_condition": "",
+    "art_subtype": "消耗"
+  },
+  {
+    "id": "CAT_022",
+    "name": "壯壯喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "6",
+    "score": 4,
+    "tribute": 1,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "偷襲\n此卡在戰鬥時\n不會被破壞",
+    "image": "/static/card_images/cat_022.jpeg",
+    "original_file": "喵喵賊/IMG_6062.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": ""
+  },
+  {
+    "id": "CAT_024",
+    "name": "喵女",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "4",
+    "score": 1,
+    "tribute": 4,
+    "keywords": [
+      "偷襲",
+      "立即"
+    ],
+    "effect_text": "立即:使你手牌1張無需祭品的偷襲單位卡被額外打出",
+    "image": "/static/card_images/cat_024.jpeg",
+    "original_file": "喵喵賊/IMG_5995.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": []
+  },
+  {
+    "id": "CAT_025",
+    "name": "壞掉的機械喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "5",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "機械"
+    ],
+    "effect_text": "此卡無法進攻且左右邊的非小旅人單位獲得偷襲",
+    "image": "/static/card_images/cat_025.jpeg",
+    "original_file": "喵喵賊/IMG_6060.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": "",
+    "art_subtype": "機械"
+  },
+  {
+    "id": "CAT_026",
+    "name": "惡魔招財喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": 7,
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "偷襲",
+      "神族"
+    ],
+    "effect_text": "你的主要階段,若你墓地有3個或以上的喵喵賊 單位,才可從手牌打出此卡\n偷襲 此卡偷襲成功時,使你墓地1 喵喵賊 單位除外,若成功則獎勵+1。你的主要階段開始時,使你墓地的此卡回手牌",
+    "image": "/static/card_images/cat_026.jpeg",
+    "original_file": "喵喵賊/IMG_6022.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CAT_029",
+    "name": "肥宅喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "3",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "喵喵賊",
+      "橫放",
+      "獎勵"
+    ],
+    "effect_text": "你的主要階段限一次，可使你場上2個 喵喵賊 單位橫放，若成功則獎勵+1",
+    "image": "/static/card_images/cat_029.jpeg",
+    "original_file": "喵喵賊/IMG_6019.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": ""
+  },
+  {
+    "id": "CAT_039",
+    "name": "雙子喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "7",
+    "score": 3,
+    "tribute": 1,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "偷襲。此卡偷襲成功時，視為偷襲成功2次",
+    "image": "/static/card_images/cat_039.jpeg",
+    "original_file": "喵喵賊/IMG_6011.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": ""
+  },
+  {
+    "id": "CAT_042",
+    "name": "魔拳喵喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "4",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "偷襲",
+      "喵喵賊",
+      "立即"
+    ],
+    "effect_text": "立即:使你場上1個其他喵喵賊單位被賦予敵方魔法抗性直到下回合結束時",
+    "image": "/static/card_images/cat_042.jpeg",
+    "original_file": "喵喵賊/IMG_6009.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": ""
+  },
+  {
+    "id": "CRP-CAT-0009",
+    "name": "鷲峰良保喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0009.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "CRP-VLG-0030",
+    "name": "汐海黑兔",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0001",
+    "name": "中立石魔人",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 3,
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "阻擋"
+    ],
+    "effect_text": "阻擋。中立的岩石單位，不隸屬任何種族，但能隨心所欲加入任何種族的隊伍中。",
+    "image": "/static/card_images/neu_0001.jpeg",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0002",
+    "name": "弑神刺客天蠍座",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 3,
+    "score": 3,
+    "tribute": 3,
+    "keywords": [
+      "神族"
+    ],
+    "effect_text": "立即: 使敵方場上1神族單位被破壞",
+    "image": "/static/card_images/neu_0002.jpeg",
+    "original_file": "中立單位/IMG_5668.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0003",
+    "name": "莉茲",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 2,
+    "score": 2,
+    "tribute": 2,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "“我準備好去冒險了！”\n立即：抽1張牌",
+    "image": "/static/card_images/neu_0003.jpeg",
+    "original_file": "中立單位/IMG_6228.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0004",
+    "name": "石巨人",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 4,
+    "score": 4,
+    "tribute": 1,
+    "keywords": [
+      "貫穿"
+    ],
+    "effect_text": "",
+    "image": "/static/card_images/neu_0004.jpeg",
+    "original_file": "中立單位/IMG_6245.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0005",
+    "name": "魔法炸彈客",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "中立單位",
+      "機械"
+    ],
+    "effect_text": "敵方使用魔法卡時，可使你手牌的此卡與你牌庫頂1張牌被除外，若成功則使該魔法卡無效化並使其被除外",
+    "image": "/static/card_images/neu_0005.jpeg",
+    "original_file": "中立單位/IMG_6329.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0011",
+    "name": "彩虹維修員",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "盾",
+    "score": 2,
+    "tribute": 3,
+    "keywords": [
+      "機械"
+    ],
+    "effect_text": "此卡左右邊的單位 +1攻擊力",
+    "image": "/static/card_images/neu_0011.jpeg",
+    "original_file": "中立單位/IMG_6221.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0012",
+    "name": "彈弓小童",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 4,
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "遠程攻擊",
+      "人型"
+    ],
+    "effect_text": "遠程攻擊",
+    "image": "/static/card_images/neu_0012.jpeg",
+    "original_file": "中立單位/IMG_6223.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0013",
+    "name": "笨手笨腳的維修員",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 3,
+    "score": 2,
+    "tribute": 3,
+    "keywords": [
+      "拆卸",
+      "人型"
+    ],
+    "effect_text": "拆卸",
+    "image": "/static/card_images/neu_0013.jpeg",
+    "original_file": "中立單位/IMG_6224.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0014",
+    "name": "莉茲",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 2,
+    "score": 2,
+    "tribute": 2,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "立即:抽1張牌",
+    "image": "/static/card_images/neu_0014.jpeg",
+    "original_file": "中立單位/IMG_6227.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0015",
+    "name": "劇毒蜘蛛",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 1,
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "劇毒"
+    ],
+    "effect_text": "",
+    "image": "/static/card_images/neu_0015.jpeg",
+    "original_file": "中立單位/IMG_6230.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0016",
+    "name": "野人",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 3,
+    "tribute": 3,
+    "keywords": [
+      "人型",
+      "野人"
+    ],
+    "effect_text": "",
+    "image": "/static/card_images/neu_0016.jpeg",
+    "original_file": "中立單位/IMG_6232.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0017",
+    "name": "觀光阿姨",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 2,
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "“什麼阿姨！要叫我姐姐！” 你的結束階段時 召喚1個小旅人",
+    "image": "/static/card_images/neu_0017.jpeg",
+    "original_file": "中立單位/IMG_6237.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0018",
+    "name": "石巨人",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 4,
+    "score": 4,
+    "tribute": 1,
+    "keywords": [
+      "貫穿"
+    ],
+    "effect_text": "",
+    "image": "/static/card_images/neu_0018.jpeg",
+    "original_file": "中立單位/IMG_6239.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0019",
+    "name": "鬧鐘人",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 6,
+    "score": 5,
+    "tribute": 1,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "",
+    "image": "/static/card_images/neu_0019.jpeg",
+    "original_file": "中立單位/IMG_6246.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0021",
+    "name": "地下執法者",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 4,
+    "score": 3,
+    "tribute": 1,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "使場上所有單位的立即效果無法發動",
+    "image": "/static/card_images/neu_0021.jpeg",
+    "original_file": "中立單位/IMG_6317.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0022",
+    "name": "封印騎士",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 5,
+    "score": 4,
+    "tribute": 1,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "使被此單位戰鬥破壞的單位由破壞改為除外",
+    "image": "/static/card_images/neu_0022.jpeg",
+    "original_file": "中立單位/IMG_6320.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0023",
+    "name": "人口安全局局員",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 2,
+    "score": 2,
+    "tribute": 2,
+    "keywords": [
+      "中立單位",
+      "機械"
+    ],
+    "effect_text": "使敵方玩家一回合最多只能打出或召喚2個單位",
+    "image": "/static/card_images/neu_0023.jpeg",
+    "original_file": "中立單位/IMG_6322.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0024",
+    "name": "破甲小兵",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 4,
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "破甲",
+      "人型"
+    ],
+    "effect_text": "破甲",
+    "image": "/static/card_images/neu_0024.jpeg",
+    "original_file": "中立單位/IMG_6324.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0025",
+    "name": "魔法炸彈客",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 2,
+    "score": 2,
+    "tribute": 2,
+    "keywords": [
+      "機械"
+    ],
+    "effect_text": "敵方打出魔法卡時,可從手牌除外此卡與你牌庫頂1張牌,若成功則使該魔法卡無效化並除外",
+    "image": "/static/card_images/neu_0025.jpeg",
+    "original_file": "中立單位/IMG_6328.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0026",
+    "name": "細胞旅人",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "盾",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "X=場上細胞旅人數量\n(此卡一副套牌可放多張)",
+    "image": "/static/card_images/neu_0026.jpeg",
+    "original_file": "中立單位/IMG_6331.JPG",
+    "deck_eligible": false,
+    "extra_deck_limit": 0,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0027",
+    "name": "星靈女孩 星娜",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 4,
+    "score": 3,
+    "tribute": 4,
+    "keywords": [
+      "中立",
+      "神族"
+    ],
+    "effect_text": "「一起玩到最後吧！」\n雙方玩家\n不得宣告提早結束遊戲",
+    "image": "/static/card_images/neu_0027.jpeg",
+    "original_file": "中立單位/IMG_6332.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0028",
+    "name": "山羊勇者魔羯座",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 6,
+    "score": 6,
+    "tribute": 2,
+    "keywords": [
+      "貫穿",
+      "神族"
+    ],
+    "effect_text": "敵方不得使用山羊術",
+    "image": "/static/card_images/neu_0028.jpeg",
+    "original_file": "中立單位/IMG_5663.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0029",
+    "name": "瘋狂粉絲",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 2,
+    "score": 2,
+    "tribute": 1,
+    "keywords": [
+      "不死族"
+    ],
+    "effect_text": "你的戰術階段若選擇進攻，可從你墓地額外打出此卡且此卡亦可進攻",
+    "image": "/static/card_images/neu_0029.jpeg",
+    "original_file": "中立單位/IMG_6336.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0030",
+    "name": "馴羊使者 牡羊座",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 5,
+    "score": 5,
+    "tribute": 1,
+    "keywords": [
+      "神族"
+    ],
+    "effect_text": "立即:從你牌庫或墓地尋找1張山羊術加入手牌並重洗牌庫",
+    "image": "/static/card_images/neu_0030.jpeg",
+    "original_file": "中立單位/IMG_6338.JPG",
+    "deck_eligible": false,
+    "extra_deck_limit": 1,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0031",
+    "name": "小女魔導士 庫路路",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 2,
+    "tribute": 3,
+    "keywords": [
+      "虛擬"
+    ],
+    "effect_text": "立即:使敵方將其所有手牌 洗回牌庫並盡可能抽取等同洗回 牌庫張數的手牌",
+    "image": "/static/card_images/neu_0031.jpeg",
+    "original_file": "中立單位/IMG_6339.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0032",
+    "name": "居酒屋老闆娘",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 2,
+    "score": 2,
+    "tribute": 2,
+    "keywords": [
+      "虛擬"
+    ],
+    "effect_text": "你的主要階段開始時限一次，可召喚1個小旅人，並召喚1個小旅人至敵方場上",
+    "image": "/static/card_images/neu_0032.jpeg",
+    "original_file": "中立單位/IMG_6342.JPG",
+    "deck_eligible": false,
+    "extra_deck_limit": 2,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0033",
+    "name": "魔王女參謀 克蕾",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 2,
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "中立單位",
+      "虛擬"
+    ],
+    "effect_text": "使此卡正前方的敵方單位 不得進攻",
+    "image": "/static/card_images/neu_0033.jpeg",
+    "original_file": "中立單位/IMG_6340.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0034",
+    "name": "海中的干貝 火野貝",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 5,
+    "tribute": 0,
+    "keywords": [
+      "虛擬"
+    ],
+    "effect_text": "當你場上沒有單位時，才可以打出此卡",
+    "image": "/static/card_images/neu_0034.jpeg",
+    "original_file": "中立單位/IMG_6343.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0035",
+    "name": "尖叫的女人",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 2,
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "貫穿",
+      "人型"
+    ],
+    "effect_text": "",
+    "image": "/static/card_images/neu_0035.jpeg",
+    "original_file": "中立單位/IMG_6344.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0036",
+    "name": "驅魔人",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 1,
+    "score": 2,
+    "tribute": 1,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "立即: 使場上1單位被賦予的1魔法卡回手牌",
+    "image": "/static/card_images/neu_0036.jpeg",
+    "original_file": "中立單位/IMG_6346.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0037",
+    "name": "廢墟探險家",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 2,
+    "score": 2,
+    "tribute": 2,
+    "keywords": [
+      "人型"
+    ],
+    "effect_text": "此卡進入墓地時，抽1張牌",
+    "image": "/static/card_images/neu_0037.jpeg",
+    "original_file": "中立單位/IMG_6347.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0038",
+    "name": "恐怖的房東阿姨",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 2,
+    "tribute": 3,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "你的結束階段,使你或敵方場上1個小旅人被破壞,否則使此單位被破壞",
+    "image": "/static/card_images/neu_0038.jpeg",
+    "original_file": "中立單位/IMG_6350.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0039",
+    "name": "恐怖稻草人",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 1,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "無法進攻。你的結束階段結束後,使此卡前方第1個單位移動至其持有者場上任意位置 (須為場上合法位置)",
+    "image": "/static/card_images/neu_0039.jpeg",
+    "original_file": "中立單位/IMG_6352.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0042",
+    "name": "驚嚇蘑菇",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 1,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "衰退",
+      "中立單位",
+      "虛擬"
+    ],
+    "effect_text": "敵方打出立即單位時，使此單位被破壞並使該單位立即效果無效化",
+    "image": "/static/card_images/neu_0042.jpeg",
+    "original_file": "中立單位/IMG_5667.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0043",
+    "name": "封印小兵",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 2,
+    "score": 1,
+    "tribute": 2,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "此單位戰鬥成功時，可使敵方墓地1⭐為2或以下的單位被除外",
+    "image": "/static/card_images/neu_0043.jpeg",
+    "original_file": "中立單位/IMG_5656.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0045",
+    "name": "好奇女巫 水瓶座",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 5,
+    "score": 5,
+    "tribute": 1,
+    "keywords": [
+      "神族"
+    ],
+    "effect_text": "立即:使敵方展示所有手牌,你可展示手牌中與敵方手牌同名的卡牌,若成功則你使其中1張同名卡進入墓地",
+    "image": "/static/card_images/neu_0045.jpeg",
+    "original_file": "中立單位/IMG_6359.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0047",
+    "name": "皇家魔法師",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 2,
+    "score": 2,
+    "tribute": 2,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "使你場上此單位前後方的單位被賦予敵方效果抗性",
+    "image": "/static/card_images/neu_0047.jpeg",
+    "original_file": "中立單位/IMG_6361.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0048",
+    "name": "路過的勇士",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "盾",
+    "score": 1,
+    "tribute": 2,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "你的主要階段限一次，可使此單位被橫放，若成功則使敵方場上1個香蕉單位被綁架",
+    "image": "/static/card_images/neu_0048.jpeg",
+    "original_file": "中立單位/IMG_5657.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0071",
+    "name": "迷路的尋寶小旅人",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 2,
+    "tribute": 2,
+    "keywords": [
+      "禁錮",
+      "中立單位",
+      "小旅人"
+    ],
+    "effect_text": "你的主要階段開始時, 可使你手牌的此卡被額外打出, 並使此單位被賦予禁錮直到回合結束",
+    "image": "/static/card_images/neu_0071.jpeg",
+    "original_file": "中立單位/IMG_6218.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NEU-0073",
+    "name": "流浪巨人",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 8,
+    "score": 7,
+    "tribute": 2,
+    "keywords": [],
+    "effect_text": "“.........”",
+    "image": "/static/card_images/neu_0073.jpeg",
+    "original_file": "中立單位/IMG_6216.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NMG-0010",
+    "name": "前線號角",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "中立",
+      "場地"
+    ],
+    "effect_text": "戰鬥時,使你前排的進攻單位+1攻擊力",
+    "image": "/static/card_images/nmg_0010.jpeg",
+    "original_file": "中立單位/IMG_5812.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NMG-0012",
+    "name": "山羊術",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 1,
+    "tribute": 3,
+    "keywords": [
+      "山羊",
+      "永久"
+    ],
+    "effect_text": "使場上1單位變為此卡\n(此卡在場時視為單位)",
+    "image": "/static/card_images/nmg_0012.jpeg",
+    "original_file": "中立單位/IMG_5813.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NMG-0019",
+    "name": "法術保護",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "中立",
+      "消耗",
+      "永久"
+    ],
+    "effect_text": "使敵方1魔法卡無效化\n(須在打出當下使用)\n或是\n使1單位被賦予，\n不會被敵方魔法卡選為目標",
+    "image": "/static/card_images/nmg_0019.jpeg",
+    "original_file": "中立單位/IMG_5814.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NMG-0020",
+    "name": "魔法反制",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 0,
+    "tribute": 3,
+    "keywords": [
+      "中立",
+      "消耗"
+    ],
+    "effect_text": "使敵方1魔法卡無效化 (須在打出當下使用)",
+    "image": "/static/card_images/nmg_0020.jpeg",
+    "original_file": "中立單位/IMG_5815.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NMG-0039",
+    "name": "法術解析",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "敵方在其防守階段使用魔法卡時 使該魔法卡無效化",
+    "image": "/static/card_images/nmg_0039.jpeg",
+    "original_file": "中立單位/IMG_5677.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NMG-0040",
+    "name": "力場保護",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "破壞抗性"
+    ],
+    "effect_text": "使你場上的1張場地牌 被賦予 破壞抗性 或 抽1張牌",
+    "image": "/static/card_images/nmg_0040.jpeg",
+    "original_file": "中立單位/IMG_5659.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NMS-0011",
+    "name": "彩虹維修員",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "盾",
+    "score": 2,
+    "tribute": 3,
+    "keywords": [
+      "機械"
+    ],
+    "effect_text": "此卡左右邊的單位 +1攻擊力",
+    "image": "/static/card_images/nms_0011.jpeg",
+    "original_file": "中立單位/IMG_6220.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NMS-0015",
+    "name": "劇毒蜘蛛",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "1",
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "劇毒"
+    ],
+    "effect_text": "",
+    "image": "/static/card_images/nms_0015.jpeg",
+    "original_file": "中立單位/IMG_6229.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NMS-0019",
+    "name": "鬧鐘人",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 6,
+    "score": 5,
+    "tribute": 1,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "",
+    "image": "/static/card_images/nms_0019.jpeg",
+    "original_file": "中立單位/IMG_6247.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NMS-0020",
+    "name": "壞掉的機器人",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 5,
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "機械",
+      "合體"
+    ],
+    "effect_text": "機械 合體\n無法進攻",
+    "image": "/static/card_images/nms_0020.jpeg",
+    "original_file": "中立單位/IMG_6249.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "NMS-0070",
+    "name": "恐怖的房東阿伯",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 1,
+    "score": 1,
+    "tribute": 1,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "你場上的小旅人\n被破壞時，\n獎勵+1",
+    "image": "/static/card_images/nms_0070.jpeg",
+    "original_file": "中立單位/IMG_6219.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "PROMO-CAT-0001",
+    "name": "靴喵 PROMO",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0001.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "PROMO-VLG-0003",
+    "name": "嘴裂的女孩 PROMO",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/vlg_0003.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "PROMO-VLG-0037",
+    "name": "地下怪鳥 PROMO",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0010",
+    "name": "火野貝粉喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0010.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0011",
+    "name": "黑喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "6",
+    "score": 3,
+    "tribute": 1,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "此卡偷襲成功時，使敵方場上1單位被破壞",
+    "image": "/static/card_images/r_cat_0011.jpeg",
+    "original_file": "喵喵賊/IMG_6038.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": ""
+  },
+  {
+    "id": "R-CAT-0019",
+    "name": "脫逃",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_019.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0021",
+    "name": "幽靈喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "3",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "你的其他單位偷襲成功時，可從你墓地額外打出此卡。",
+    "image": "/static/card_images/r_cat_0021.jpeg",
+    "original_file": "喵喵賊/IMG_5806.JPG",
+    "deck_eligible": true,
+    "reward": null,
+    "effect": "",
+    "variant": false,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0025",
+    "name": "壞掉的機械喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_025.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0027",
+    "name": "草叢喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0027.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0028",
+    "name": "破甲喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0028.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0029",
+    "name": "肥宅喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_029.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0030",
+    "name": "彩虹幻象喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0030.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0031",
+    "name": "訊號干擾喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0031.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0035",
+    "name": "惡夢9命喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0035.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0036",
+    "name": "壞喵俱樂部 神隱喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0036.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0037",
+    "name": "喵抓板",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0037.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0038",
+    "name": "布偶喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0038.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0039",
+    "name": "雙子喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_039.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0040",
+    "name": "逗喵棒",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "0",
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "使你場上1個喵喵賊單位被轉正，並可使其移動至你場上任意位置。",
+    "image": "/static/card_images/r_cat_0040.jpeg",
+    "original_file": "喵喵賊/IMG_5802.JPG",
+    "deck_eligible": true,
+    "art_subtype": "消耗",
+    "reward": null,
+    "effect": "",
+    "variant": false,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0041",
+    "name": "公關姐姐喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "2",
+    "score": 3,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "你因喵喵賊卡牌效果額外打出或召喚喵喵賊單位卡時，使你獎勵+1。",
+    "image": "/static/card_images/r_cat_0041.jpeg",
+    "original_file": "喵喵賊/IMG_5801.JPG",
+    "deck_eligible": true,
+    "reward": null,
+    "effect": "",
+    "variant": false,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0042",
+    "name": "魔拳喵喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "4",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "立即：使你場上1張其他喵喵賊單位被賦予敵方魔法抗性，直到下個回合結束時。",
+    "image": "/static/card_images/r_cat_0042.jpeg",
+    "original_file": "喵喵賊/IMG_5800.JPG",
+    "deck_eligible": true,
+    "reward": null,
+    "effect": "",
+    "variant": false,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0043",
+    "name": "喵喵球",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0043.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0044",
+    "name": "殭屍喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "4",
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "此卡偷襲成功時，可使你手牌1張喵喵賊卡牌進入墓地，若成功則使你墓地另一張喵喵賊單位卡回手牌。",
+    "image": "/static/card_images/r_cat_0044.jpeg",
+    "original_file": "喵喵賊/IMG_5799.JPG",
+    "deck_eligible": true,
+    "reward": null,
+    "effect": "",
+    "variant": false,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0046",
+    "name": "負能量喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0046.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0048",
+    "name": "經理喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0048.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0049",
+    "name": "喵玩具店",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0049.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0050",
+    "name": "打手喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0050.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0051",
+    "name": "喵店店喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0051.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0052",
+    "name": "黑幫首喵 凱特琳",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "8",
+    "score": 2,
+    "tribute": 2,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "你的其他單位偷襲成功時，若本回合已偷襲成功至少2次，即可從手牌額外打出此卡。此卡或你的其他單位偷襲成功時，使你獎勵+X。X=本回合偷襲成功的次數。",
+    "image": "/static/card_images/r_cat_0052.jpeg",
+    "original_file": "喵喵賊/IMG_5797.JPG",
+    "deck_eligible": true,
+    "reward": null,
+    "effect": "",
+    "variant": false,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-CAT-0056",
+    "name": "DJ喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0056.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NEU-0043",
+    "name": "封印小兵",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "2",
+    "score": 1,
+    "tribute": 2,
+    "keywords": [],
+    "effect_text": "此單位戰鬥成功時，可使敵方墓地1⭐為2或以下的單位被除外",
+    "image": "/static/card_images/r_neu_0043.jpeg",
+    "original_file": "中立單位/IMG_5656.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": "",
+    "art_subtype": "人型"
+  },
+  {
+    "id": "R-NMG-0004",
+    "name": "塗毒",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "使場上1單位被賦予劇毒",
+    "image": "/static/card_images/r_nmg_0004.jpeg",
+    "original_file": "中立單位/IMG_6397.JPG",
+    "deck_eligible": true,
+    "art_subtype": "永久",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMG-0005",
+    "name": "肌肉魔法",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "使場上1單位被賦予貫穿 及 +1攻擊力",
+    "image": "/static/card_images/r_nmg_0005.jpeg",
+    "original_file": "中立單位/IMG_6399.JPG",
+    "deck_eligible": true,
+    "art_subtype": "永久",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMG-0006",
+    "name": "以小博大",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "若敵方進攻單位攻擊力大於等於你的防守單位3點, 使該單位被破壞",
+    "image": "/static/card_images/r_nmg_0006.jpeg",
+    "original_file": "中立單位/IMG_6401.JPG",
+    "deck_eligible": true,
+    "art_subtype": "消耗",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMG-0009",
+    "name": "和平巨人",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "使敵方玩家下個回合不得發動進攻",
+    "image": "/static/card_images/r_nmg_0009.jpeg",
+    "original_file": "中立單位/IMG_6408.JPG",
+    "deck_eligible": true,
+    "art_subtype": "消耗",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMG-0013",
+    "name": "盾牌人偶",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "橫放"
+    ],
+    "effect_text": "使敵方1進攻單位橫放",
+    "image": "/static/card_images/r_nmg_0013.jpeg",
+    "original_file": "中立單位/IMG_6421.JPG",
+    "deck_eligible": true,
+    "art_subtype": "消耗",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMG-0015",
+    "name": "小雷擊",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "若你總分低於敵方7點或以上則使敵方場上1單位被破壞",
+    "image": "/static/card_images/r_nmg_0015.jpeg",
+    "original_file": "中立單位/IMG_6425.JPG",
+    "deck_eligible": true,
+    "art_subtype": "消耗",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMG-0016",
+    "name": "復活術",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "若你總分低於敵方8點或以上則使你墓地1單位被召喚",
+    "image": "/static/card_images/r_nmg_0016.jpeg",
+    "original_file": "中立單位/IMG_6430.JPG",
+    "deck_eligible": true,
+    "art_subtype": "消耗",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMG-0020",
+    "name": "魔法反制",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 1,
+    "tribute": 3,
+    "keywords": [],
+    "effect_text": "使敵方1魔法卡無效化 (須在打出當下使用)",
+    "image": "/static/card_images/r_nmg_0020.jpeg",
+    "original_file": "中立單位/IMG_6443.JPG",
+    "deck_eligible": true,
+    "art_subtype": "消耗",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMG-0021",
+    "name": "天氣晴",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "消耗"
+    ],
+    "effect_text": "使1場地卡被破壞",
+    "image": "/static/card_images/r_nmg_0021.jpeg",
+    "original_file": "中立單位/IMG_5669.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMG-0022",
+    "name": "打斷你一下",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "中立",
+      "消耗"
+    ],
+    "effect_text": "敵方打出單位時使該單位立即效果無效化",
+    "image": "/static/card_images/r_nmg_0022.jpeg",
+    "original_file": "中立單位/IMG_5670.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMG-0023",
+    "name": "法力回收壺",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 1,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "使你墓地1魔法卡回手牌",
+    "image": "/static/card_images/r_nmg_0023.jpeg",
+    "original_file": "中立單位/IMG_6451.JPG",
+    "deck_eligible": true,
+    "art_subtype": "消耗",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMG-0024",
+    "name": "復原魔法",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "消耗"
+    ],
+    "effect_text": "使1單位被賦予的所有魔法卡進入墓地",
+    "image": "/static/card_images/r_nmg_0024.jpeg",
+    "original_file": "中立單位/IMG_5671.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMG-0028",
+    "name": "我要打5個",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "永久"
+    ],
+    "effect_text": "使你場上1單位被賦予\n+X攻擊力\nX=敵方場上前排戰線\n的單位數量",
+    "image": "/static/card_images/r_nmg_0028.jpeg",
+    "original_file": "中立單位/IMG_5673.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMG-0031",
+    "name": "魔抗鐵拳",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "消耗"
+    ],
+    "effect_text": "使1單位被賦予2選1：\n+1攻擊力或-1攻擊力\n及\n不會被魔法卡選為目標直到\n下個敵方主要階段開始前",
+    "image": "/static/card_images/r_nmg_0031.jpeg",
+    "original_file": "中立單位/IMG_5674.JPG",
+    "deck_eligible": false,
+    "extra_deck_limit": 1,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMG-0032",
+    "name": "復活膠囊",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 0,
+    "tribute": 3,
+    "keywords": [
+      "中立",
+      "消耗"
+    ],
+    "effect_text": "使本次戰鬥你場上\n1被破壞的進攻單位\n被召喚到場上原來的位置",
+    "image": "/static/card_images/r_nmg_0032.jpeg",
+    "original_file": "中立單位/IMG_5675.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMG-0038",
+    "name": "一根香蕉",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "使場上\n1個無需祭品的單位\n被賦予-1攻擊力及\n此單位被視為香蕉",
+    "image": "/static/card_images/r_nmg_0038.jpeg",
+    "original_file": "中立單位/IMG_5678.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMG-0040",
+    "name": "力場保護",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "破壞抗性"
+    ],
+    "effect_text": "使你場上的1張場地牌 被賦予 破壞抗性 或 抽1張牌",
+    "image": "/static/card_images/r_nmg_0040.jpeg",
+    "original_file": "中立單位/IMG_5659.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": ""
+  },
+  {
+    "id": "R-NMS-0017",
+    "name": "觀光阿姨",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "2",
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "你的結束階段時 召喚1個小旅人",
+    "image": "/static/card_images/r_nms_0017.jpeg",
+    "original_file": "中立單位/IMG_6234.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMS-0021",
+    "name": "地下執法者",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 4,
+    "score": 3,
+    "tribute": 1,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "使場上所有單位的立即效果無法發動",
+    "image": "/static/card_images/r_nms_0021.jpeg",
+    "original_file": "中立單位/IMG_6316.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMS-0022",
+    "name": "封印騎士",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "5",
+    "score": 4,
+    "tribute": 1,
+    "keywords": [],
+    "effect_text": "使被此單位戰鬥破壞的單位由破壞改為除外",
+    "image": "/static/card_images/r_nms_0022.jpeg",
+    "original_file": "中立單位/IMG_6318.JPG",
+    "deck_eligible": true,
+    "art_subtype": "人型",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMS-0023",
+    "name": "法力回收壺",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "使你墓地1魔法卡回手牌",
+    "image": "/static/card_images/r_nms_0023.jpeg",
+    "original_file": "中立單位/IMG_6453.JPG",
+    "deck_eligible": true,
+    "mana": 3,
+    "usable_phases": [
+      "Main Phase"
+    ],
+    "art_subtype": "消耗"
+  },
+  {
+    "id": "R-NMS-0024",
+    "name": "破甲小兵",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "4",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "破甲",
+      "人型"
+    ],
+    "effect_text": "破甲",
+    "image": "/static/card_images/r_nms_0024.jpeg",
+    "original_file": "中立單位/IMG_5661.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMS-0025",
+    "name": "魔法炸彈客",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "中立單位",
+      "機械"
+    ],
+    "effect_text": "敵方使用魔法卡時，可使你手牌的此卡與你牌庫頂1張牌被除外，若成功則使該魔法卡無效化並使其被除外",
+    "image": "/static/card_images/r_nms_0025.jpeg",
+    "original_file": "中立單位/IMG_6325.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMS-0029",
+    "name": "瘋狂粉絲",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "2",
+    "score": 2,
+    "tribute": 1,
+    "keywords": [
+      "不死族"
+    ],
+    "effect_text": "你的戰術階段若選擇進攻，可從你墓地額外打出此卡且此卡亦可進攻",
+    "image": "/static/card_images/r_nms_0029.jpeg",
+    "original_file": "中立單位/IMG_6334.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMS-0031",
+    "name": "魔抗鐵拳",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "消耗"
+    ],
+    "effect_text": "使1單位被賦予2選1：\n+1攻擊力或-1攻擊力\n及\n不會被魔法卡選為目標直到\n下個敵方主要階段開始前",
+    "image": "/static/card_images/r_nms_0031.jpeg",
+    "original_file": "中立單位/IMG_6466.JPG",
+    "deck_eligible": true,
+    "mana": 1,
+    "usable_phases": [
+      "Main Phase"
+    ]
+  },
+  {
+    "id": "R-NMS-0036",
+    "name": "驅魔人",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "1",
+    "score": 2,
+    "tribute": 1,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "立即: 使場上1單位被賦予的1魔法卡回手牌",
+    "image": "/static/card_images/r_nms_0036.jpeg",
+    "original_file": "中立單位/IMG_5666.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMS-0037",
+    "name": "廢墟探險家",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "2",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "人型"
+    ],
+    "effect_text": "此卡進入墓地時，抽1張牌",
+    "image": "/static/card_images/r_nms_0037.jpeg",
+    "original_file": "中立單位/IMG_6347.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMS-0044",
+    "name": "退休的破甲老兵",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "2",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "使此單位左右邊的單位被賦予破甲",
+    "image": "/static/card_images/r_nms_0044.jpeg",
+    "original_file": "中立單位/IMG_6358.JPG",
+    "deck_eligible": true,
+    "art_subtype": "人型",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-NMS-0048",
+    "name": "路過的勇士",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "2",
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "橫放",
+      "香蕉",
+      "綁架"
+    ],
+    "effect_text": "你的主要階段限一次, 可使此單位被橫放, 若成功則使敵方場上1個香蕉單位被綁架",
+    "image": "/static/card_images/r_nms_0048.jpeg",
+    "original_file": "中立單位/IMG_5657.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": "",
+    "art_subtype": "人型"
+  },
+  {
+    "id": "R-VLG-0001",
+    "name": "晴天娃娃",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭",
+      "阻擋"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "is_blocker": true,
+    "can_attack": false,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/vlg_001.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0002",
+    "name": "雨傘妖怪",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0002.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0003",
+    "name": "嘴裂的女孩",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0003.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0004",
+    "name": "九尾妖狐",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0004.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0005",
+    "name": "河童",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/vlg_005.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0006",
+    "name": "長脖子的女人",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/vlg_006.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0007",
+    "name": "藍小鬼棒子",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0007.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0008",
+    "name": "紅小鬼棒子",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/vlg_08.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0009",
+    "name": "恐怖錄影帶",
+    "race": "妖怪村莊",
+    "type": "spell",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/vlg_0009.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0010",
+    "name": "貞美子",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0010.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0011",
+    "name": "武士繪",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/vlg_011.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0012",
+    "name": "雪女",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0012.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0013",
+    "name": "毛線怪",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0013.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0014",
+    "name": "座敷童子",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0014.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0016",
+    "name": "燈籠小鬼",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0016.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0018",
+    "name": "如月車站",
+    "race": "妖怪村莊",
+    "type": "field",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0018.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0020",
+    "name": "詛咒通靈",
+    "race": "妖怪村莊",
+    "type": "spell",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0020.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0022",
+    "name": "智慧的般若",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0022.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0023",
+    "name": "獨眼小僧",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0023.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0024",
+    "name": "獨眼大僧",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0024.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0025",
+    "name": "藍大鬼棒子",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0025.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0026",
+    "name": "紅大鬼棒子",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0026.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0027",
+    "name": "土蜘蛛",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0027.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0028",
+    "name": "牆壁妖怪",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭",
+      "阻擋"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "is_blocker": true,
+    "can_attack": false,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0028.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0030",
+    "name": "恐懼凝視",
+    "race": "妖怪村莊",
+    "type": "spell",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/r_vlg_0030.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0031",
+    "name": "如月站長",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0032",
+    "name": "伽椰美子",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0033",
+    "name": "伽椰小俊",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0035",
+    "name": "背背小鬼",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0036",
+    "name": "人臉魚",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0037",
+    "name": "地下怪鳥",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0040",
+    "name": "裂風龜龜",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0041",
+    "name": "卡卡小巨人",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0042",
+    "name": "虎姑媽",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0043",
+    "name": "恐怖祭司",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "R-VLG-0044",
+    "name": "毛線女孩",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SR-CAT-0022",
+    "name": "壯壯喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_022.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SR-CAT-0026",
+    "name": "惡魔招財喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_026.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SR-CAT-0032",
+    "name": "次元突擊喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "2",
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "偷襲。同名卡一回合限一次。你的其他單位偷襲成功時，可從手牌額外打出此卡，且此單位亦可進攻。",
+    "image": "/static/card_images/sr_cat_0032.jpeg",
+    "original_file": "喵喵賊/IMG_5803.JPG",
+    "deck_eligible": true,
+    "reward": null,
+    "effect": "",
+    "variant": false,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SR-CAT-0034",
+    "name": "百變喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0034.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SR-CAT-0045",
+    "name": "彈弓喵",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "4",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "偷襲。遠程攻擊。",
+    "image": "/static/card_images/sr_cat_0045.jpeg",
+    "original_file": "喵喵賊/IMG_5798.JPG",
+    "deck_eligible": true,
+    "reward": null,
+    "effect": "",
+    "variant": false,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SR-CAT-0047",
+    "name": "二連爪擊喵",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0047.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SR-CAT-0053",
+    "name": "漏食球",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0053.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SR-NMG-0026",
+    "name": "終極無效化",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "中立",
+      "消耗"
+    ],
+    "effect_text": "使敵方1魔法卡無效化 (須在打出當下使用)",
+    "image": "/static/card_images/sr_nmg_0026.jpeg",
+    "original_file": "中立單位/IMG_5672.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SR-NMS-0026",
+    "name": "終極無效化",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "中立",
+      "消耗"
+    ],
+    "effect_text": "使敵方1魔法卡無效化 (須在打出當下使用)",
+    "image": "/static/card_images/sr_nms_0026.jpeg",
+    "original_file": "中立單位/IMG_6460.JPG",
+    "deck_eligible": true,
+    "mana": 4,
+    "usable_phases": [
+      "Main Phase",
+      "Defense Phase",
+      "Enemy Phase"
+    ]
+  },
+  {
+    "id": "SR-VLG-0015",
+    "name": "十八呎大人",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/sr_vlg_0015.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SR-VLG-0017",
+    "name": "八岐大蛇",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/sr_vlg_0017.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SR-VLG-0019",
+    "name": "恐怖的井",
+    "race": "妖怪村莊",
+    "type": "field",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/sr_vlg_0019.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SR-VLG-0021",
+    "name": "天狗",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/sr_vlg_0021.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SR-VLG-0029",
+    "name": "魔貨車",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/sr_vlg_0029.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SR-VLG-0034",
+    "name": "紅衣女孩",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SR-VLG-0038",
+    "name": "水鬼",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SR-VLG-0039",
+    "name": "無臉人",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-CAT-0004",
+    "name": "虎老大 SSR",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0004.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-CAT-0011",
+    "name": "黑喵 SSR",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0011.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-CAT-0023",
+    "name": "醫療喵 SSR",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0023.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-CAT-0024",
+    "name": "喵女 SSR",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "4",
+    "score": 1,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "立即：從手牌額外打出1張無需祭品的偷襲單位。",
+    "image": "/static/card_images/ssr_cat_0024.jpeg",
+    "original_file": "喵喵賊/IMG_5804.JPG",
+    "deck_eligible": true,
+    "reward": null,
+    "effect": "",
+    "variant": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-CAT-0032",
+    "name": "次元突擊喵 SSR",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0032.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-CAT-0042",
+    "name": "魔拳喵喵 SSR",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_042.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-CAT-0052",
+    "name": "黑幫首喵 凱特琳 SSR",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0052.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-NMG-0010",
+    "name": "前線號角",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 1,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "戰鬥時,使你前排的進攻單位+1攻擊力",
+    "image": "/static/card_images/ssr_nmg_0010.jpeg",
+    "original_file": "中立單位/IMG_6411.JPG",
+    "deck_eligible": true,
+    "art_subtype": "場地",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-NMG-0012",
+    "name": "山羊術",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 1,
+    "tribute": 3,
+    "keywords": [],
+    "effect_text": "使場上1單位變為此卡\n(此卡在場時視為單位)",
+    "image": "/static/card_images/ssr_nmg_0012.jpeg",
+    "original_file": "中立單位/IMG_6419.JPG",
+    "deck_eligible": true,
+    "art_subtype": "永久",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-NMG-0017",
+    "name": "大雷擊",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "若你總分低於敵方10點或以上則使敵方前排戰線所有單位被破壞",
+    "image": "/static/card_images/ssr_nmg_0017.jpeg",
+    "original_file": "中立單位/IMG_6434.JPG",
+    "deck_eligible": true,
+    "art_subtype": "消耗",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-NMG-0019",
+    "name": "法術保護",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 1,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "使敵方1魔法卡無效化（須在打出當下使用），或使1單位被賦予不會被敵方魔法卡選為目標。",
+    "image": "/static/card_images/ssr_nmg_0019.jpeg",
+    "original_file": "中立單位/IMG_6440.JPG",
+    "deck_eligible": true,
+    "art_subtype": "消耗/永久",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-NMS-0014",
+    "name": "莉茲",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "2",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "立即:抽1張牌",
+    "image": "/static/card_images/ssr_nms_0014.jpeg",
+    "original_file": "中立單位/IMG_6228.JPG",
+    "deck_eligible": true,
+    "art_subtype": "人型",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-NMS-0017",
+    "name": "觀光阿姨",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 2,
+    "score": 1,
+    "tribute": 2,
+    "keywords": [
+      "中立單位",
+      "人型"
+    ],
+    "effect_text": "“什麼阿姨！要叫我姐姐！”你的結束階段時召喚1個小旅人",
+    "image": "/static/card_images/ssr_nms_0017.jpeg",
+    "original_file": "中立單位/IMG_6237(1).JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-VLG-0010",
+    "name": "貞美子 SSR",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/vlg_10.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-VLG-0012",
+    "name": "雪女 SSR",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/ssr_vlg_0012.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-VLG-0013",
+    "name": "毛線怪 SSR",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/ssr_vlg_0013.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-VLG-0014",
+    "name": "座敷童子 SSR",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/ssr_vlg_0014.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-VLG-0021",
+    "name": "天狗 SSR",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/ssr_vlg_0021.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSR-VLG-0044",
+    "name": "毛線女孩 SSR",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSSR-CAT-0001",
+    "name": "靴喵 SSSR",
+    "deck": "喵喵賊",
+    "type": "unit",
+    "faction": "喵喵賊",
+    "race": "喵喵賊",
+    "attack": "4",
+    "score": 3,
+    "tribute": 0,
+    "keywords": [
+      "偷襲"
+    ],
+    "effect_text": "偷襲",
+    "image": "/static/card_images/sssr_cat_0001.jpeg",
+    "original_file": "喵喵賊/IMG_6053.JPG",
+    "deck_eligible": true,
+    "reward": null,
+    "effect": "",
+    "variant": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSSR-NMG-0008",
+    "name": "起來重打",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "使你前排戰線所有單位轉正",
+    "image": "/static/card_images/sssr_nmg_0008.jpeg",
+    "original_file": "中立單位/IMG_6406.JPG",
+    "deck_eligible": true,
+    "art_subtype": "消耗",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSSR-NMG-0021",
+    "name": "天氣晴",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 1,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "使1場地卡被破壞",
+    "image": "/static/card_images/sssr_nmg_0021.jpeg",
+    "original_file": "中立單位/IMG_6447.JPG",
+    "deck_eligible": true,
+    "art_subtype": "消耗",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSSR-NMG-0022",
+    "name": "打斷你一下",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "中立",
+      "消耗"
+    ],
+    "effect_text": "敵方打出單位時使該單位立即效果無效化",
+    "image": "/static/card_images/sssr_nmg_0022.jpeg",
+    "original_file": "中立單位/IMG_6450.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSSR-NMS-000",
+    "name": "馴羊使者 牧羊座",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "5",
+    "score": 5,
+    "tribute": 1,
+    "keywords": [
+      "立即"
+    ],
+    "effect_text": "立即: 從你的牌庫或墓地尋找1張山羊術加入手牌並重洗牌庫",
+    "image": "/static/card_images/sssr_nms_000.jpeg",
+    "original_file": "中立單位/IMG_6337.JPG",
+    "deck_eligible": true,
+    "art_subtype": "神族",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSSR-NMS-0011",
+    "name": "招魂",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "0",
+    "score": 0,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "使你墓地1單位回手牌",
+    "image": "/static/card_images/sssr_nms_0011.jpeg",
+    "original_file": "中立單位/IMG_6414.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSSR-NMS-0032",
+    "name": "居酒屋老闆娘",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "2",
+    "score": 2,
+    "tribute": 2,
+    "keywords": [
+      "虛擬"
+    ],
+    "effect_text": "你的主要階段開始時限一次，可召喚1個小旅人，並召喚1個小旅人至敵方場上",
+    "image": "/static/card_images/sssr_nms_0032.jpeg",
+    "original_file": "中立單位/IMG_5665.JPG",
+    "deck_eligible": false,
+    "extra_deck_limit": 2,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSSR-NMS-0041",
+    "name": "弒神刺客 天蠍座",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "3",
+    "score": 3,
+    "tribute": 0,
+    "keywords": [
+      "立即"
+    ],
+    "effect_text": "立即: 使敵方場上1神族單位被破壞",
+    "image": "/static/card_images/sssr_nms_0041.jpeg",
+    "original_file": "中立單位/IMG_5668.JPG",
+    "deck_eligible": true,
+    "art_subtype": "神族",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSSR-NMS-0051",
+    "name": "熊頭幫老大",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "2",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "獎勵",
+      "綁架"
+    ],
+    "effect_text": "你的主要階段開始時,使你獎勵+X。X = 你場上所有單位下方的被綁架卡片數量",
+    "image": "/static/card_images/sssr_nms_0051.jpeg",
+    "original_file": "中立單位/IMG_5658.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [],
+    "trigger_condition": "",
+    "art_subtype": "強盜, 人型"
+  },
+  {
+    "id": "SSSR-R-NMS-0029",
+    "name": "瘋狂粉絲",
+    "deck": "中立",
+    "type": "unit",
+    "faction": "中立",
+    "race": "中立",
+    "attack": "2",
+    "score": 2,
+    "tribute": 1,
+    "keywords": [
+      "不死族"
+    ],
+    "effect_text": "你的戰術階段若選擇進攻，可從你墓地額外打出此卡且此卡亦可進攻",
+    "image": "/static/card_images/sssr_r_nms_0029.jpeg",
+    "original_file": "中立單位/IMG_5664.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSSR-VLG-0002",
+    "name": "雨傘妖怪 黑銀夜鳥",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/sssr_vlg_0002.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSSR-VLG-0004",
+    "name": "九尾妖狐 SSSR",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/sssr_vlg_0004.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "SSSR-VLG-0012",
+    "name": "雪女 SSSR",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/sssr_vlg_0012.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG-UP-001",
+    "name": "憤怒的般若",
+    "race": "妖怪村莊",
+    "type": "outside_upgrade",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": false,
+    "outside_limit": 1,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG-UP-002",
+    "name": "紅眼小僧",
+    "race": "妖怪村莊",
+    "type": "outside_upgrade",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": false,
+    "outside_limit": 1,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG-UP-003",
+    "name": "伽椰貞美子",
+    "race": "妖怪村莊",
+    "type": "outside_upgrade",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": false,
+    "outside_limit": 1,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG-X001",
+    "name": "恐怖小丑",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG-X002",
+    "name": "瓶子長長",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG-X003",
+    "name": "殭屍女",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG-X004",
+    "name": "背後靈",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG-X005",
+    "name": "如月車票",
+    "race": "妖怪村莊",
+    "type": "spell",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG-X006",
+    "name": "掃把精",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG-X007",
+    "name": "事故物件",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG-X008",
+    "name": "魔神仔",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": false,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_back.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_0003",
+    "name": "嘴裂的女孩",
+    "deck": "妖怪村莊",
+    "type": "unit",
+    "faction": "妖怪村莊",
+    "race": "妖怪村莊",
+    "attack": 0,
+    "score": 2,
+    "tribute": 3,
+    "keywords": [
+      "妖怪村莊",
+      "人型"
+    ],
+    "effect_text": "被獻祭 時,使此卡前方 第一個敵方單位被破壞",
+    "image": "/static/card_images/vlg_0003.jpeg",
+    "original_file": "妖怪村莊/IMG_5820.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_0009",
+    "name": "恐怖錄影帶",
+    "deck": "妖怪村莊",
+    "type": "magic",
+    "faction": "妖怪村莊",
+    "race": "妖怪村莊",
+    "attack": 0,
+    "score": 1,
+    "tribute": 2,
+    "keywords": [
+      "妖怪村莊"
+    ],
+    "effect_text": "立即:從你牌庫搜尋「恐怖的井」展示並加入手牌,然後重洗牌庫",
+    "image": "/static/card_images/vlg_0009.jpeg",
+    "original_file": "妖怪村莊/IMG_5823.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_001",
+    "name": "晴天娃娃",
+    "deck": "妖怪村莊",
+    "type": "unit",
+    "faction": "妖怪村莊",
+    "race": "妖怪村莊",
+    "attack": "盾",
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "阻擋"
+    ],
+    "effect_text": "被獻祭 時,使你或敵方的場地牌被破壞",
+    "image": "/static/card_images/vlg_001.jpeg",
+    "original_file": "妖怪村莊/IMG_5818.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_002",
+    "name": "雨傘妖怪",
+    "deck": "妖怪村莊",
+    "type": "unit",
+    "faction": "妖怪村莊",
+    "race": "妖怪村莊",
+    "attack": "盾",
+    "score": 2,
+    "tribute": 2,
+    "keywords": [
+      "妖怪村莊"
+    ],
+    "effect_text": "你場上\n有其他單位被獻祭時,\n可使你墓地的此卡被召喚",
+    "image": "/static/card_images/vlg_002.jpeg",
+    "original_file": "妖怪村莊/IMG_5819.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_003",
+    "name": "嘴裂的女孩",
+    "deck": "妖怪村莊",
+    "type": "unit",
+    "faction": "妖怪村莊",
+    "attack": 3,
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "人型"
+    ],
+    "effect_text": "被獻祭時，使此卡前方第一個敵方單位被破壞。",
+    "image": "/static/card_images/vlg_03.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_004",
+    "name": "河童",
+    "deck": "妖怪村莊",
+    "type": "unit",
+    "faction": "妖怪村莊",
+    "attack": 1,
+    "score": -2,
+    "tribute": 0,
+    "keywords": [
+      "場地"
+    ],
+    "effect_text": "被獻祭時可打在敵方場地；此卡在場地區時，戰鬥時，使你前排的進攻單位-1攻擊力。",
+    "image": "/static/card_images/vlg_04.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_005",
+    "name": "河童",
+    "deck": "妖怪村莊",
+    "type": "magic",
+    "faction": "妖怪村莊",
+    "race": "妖怪村莊",
+    "attack": 0,
+    "score": -2,
+    "tribute": 1,
+    "keywords": [],
+    "effect_text": "被獻祭時可打在敵方場地;此卡在場地區時,戰鬥時,使你前排的進攻單位-1攻擊力",
+    "image": "/static/card_images/vlg_005.jpeg",
+    "original_file": "妖怪村莊/IMG_5821.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_006",
+    "name": "長脖子的女人",
+    "deck": "妖怪村莊",
+    "type": "unit",
+    "faction": "妖怪村莊",
+    "race": "妖怪村莊",
+    "attack": 3,
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "禁錮",
+      "人型"
+    ],
+    "effect_text": "使此卡正前方的敵方單位受到禁錮",
+    "image": "/static/card_images/vlg_006.jpeg",
+    "original_file": "妖怪村莊/IMG_5822.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_007",
+    "name": "武士繪",
+    "deck": "妖怪村莊",
+    "type": "unit",
+    "faction": "妖怪村莊",
+    "attack": 6,
+    "score": 4,
+    "tribute": 1,
+    "keywords": [
+      "人型"
+    ],
+    "effect_text": "戰鬥成功時，可使你墓地1其他妖怪村莊單位回手牌。",
+    "image": "/static/card_images/vlg_07.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_008",
+    "name": "雪女",
+    "deck": "妖怪村莊",
+    "type": "unit",
+    "faction": "妖怪村莊",
+    "attack": 5,
+    "score": 4,
+    "tribute": 1,
+    "keywords": [
+      "人型",
+      "禁錮",
+      "立即"
+    ],
+    "effect_text": "立即：你的下個主要階段開始前，使敵方前排戰線的單位受到禁錮。",
+    "image": "/static/card_images/vlg_08.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_009",
+    "name": "毛線怪",
+    "deck": "妖怪村莊",
+    "type": "unit",
+    "faction": "妖怪村莊",
+    "attack": -1,
+    "score": 3,
+    "tribute": 0,
+    "keywords": [
+      "禁錮"
+    ],
+    "effect_text": "你的結束階段時，若敵方場上有單位受到禁錮，獎勵+1。",
+    "image": "/static/card_images/vlg_09.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_010",
+    "name": "座敷童子",
+    "deck": "妖怪村莊",
+    "type": "unit",
+    "faction": "妖怪村莊",
+    "attack": 1,
+    "score": 3,
+    "tribute": 0,
+    "keywords": [],
+    "effect_text": "立即：使敵方玩家下個回合不得進攻。",
+    "image": "/static/card_images/vlg_10.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_011",
+    "name": "武士繪",
+    "deck": "妖怪村莊",
+    "type": "unit",
+    "faction": "妖怪村莊",
+    "race": "妖怪村莊",
+    "attack": 6,
+    "score": 4,
+    "tribute": 1,
+    "keywords": [
+      "妖怪村莊",
+      "人型"
+    ],
+    "effect_text": "戰鬥成功時，可使你墓地1其他妖怪村莊單位回手牌",
+    "image": "/static/card_images/vlg_011.jpeg",
+    "original_file": "妖怪村莊/IMG_5824.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_012",
+    "name": "雪女",
+    "deck": "妖怪村莊",
+    "type": "unit",
+    "faction": "妖怪村莊",
+    "race": "妖怪村莊",
+    "attack": 5,
+    "score": 4,
+    "tribute": 1,
+    "keywords": [
+      "妖怪村莊",
+      "人型",
+      "禁錮"
+    ],
+    "effect_text": "立即:你的下個主要階段開始前,使敵方前排戰線的單位受到禁錮",
+    "image": "/static/card_images/vlg_012.jpeg",
+    "original_file": "妖怪村莊/IMG_5825.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_013",
+    "name": "恐怖的井",
+    "deck": "妖怪村莊",
+    "type": "magic",
+    "faction": "妖怪村莊",
+    "magic_type": "場地",
+    "magic_point": 4,
+    "timing": [
+      "主要階段"
+    ],
+    "keywords": [],
+    "effect_text": "你的結束階段時，可使你墓地1個2星或以下的妖怪村莊單位被召喚。",
+    "image": "/static/card_images/vlg_13.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ],
+    "attack": "0",
+    "tribute": 0,
+    "score": 0
+  },
+  {
+    "id": "VLG_014",
+    "name": "天狗",
+    "deck": "妖怪村莊",
+    "type": "unit",
+    "faction": "妖怪村莊",
+    "attack": 7,
+    "score": 7,
+    "tribute": 0,
+    "keywords": [
+      "神族"
+    ],
+    "effect_text": "你的主要階段，若你墓地有8個或以上的妖怪村莊單位，才可從手牌額外打出此卡。此卡不會被敵方單位效果以及敵方魔法卡選為目標。",
+    "image": "/static/card_images/vlg_14.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_015",
+    "name": "牆壁妖怪",
+    "deck": "妖怪村莊",
+    "type": "unit",
+    "faction": "妖怪村莊",
+    "attack": 0,
+    "score": 2,
+    "tribute": 0,
+    "keywords": [
+      "阻擋"
+    ],
+    "effect_text": "當你場上有其他單位被獻祭時，可從手牌額外打出此卡。",
+    "image": "/static/card_images/vlg_15.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VLG_016",
+    "name": "恐懼凝視",
+    "deck": "妖怪村莊",
+    "type": "magic",
+    "faction": "妖怪村莊",
+    "magic_type": "永久",
+    "magic_point": 1,
+    "timing": [
+      "主要階段"
+    ],
+    "keywords": [
+      "禁錮"
+    ],
+    "effect_text": "使敵方場上1單位受到禁錮。",
+    "image": "/static/card_images/vlg_16.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ],
+    "attack": "0",
+    "tribute": 0,
+    "score": 0
+  },
+  {
+    "id": "VLG_017",
+    "name": "山羊術",
+    "deck": "妖怪村莊",
+    "type": "magic",
+    "faction": "妖怪村莊",
+    "magic_type": "永久",
+    "magic_point": 2,
+    "timing": [
+      "主要階段",
+      "防守階段"
+    ],
+    "keywords": [
+      "山羊"
+    ],
+    "effect_text": "使場上1單位變為此卡（此卡在場時視為單位）。",
+    "image": "/static/card_images/vlg_17.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ],
+    "attack": "0",
+    "tribute": 0,
+    "score": 0
+  },
+  {
+    "id": "VLG_018",
+    "name": "法術保護",
+    "deck": "妖怪村莊",
+    "type": "magic",
+    "faction": "妖怪村莊",
+    "magic_type": "消耗/永久",
+    "magic_point": 2,
+    "timing": [
+      "主要階段",
+      "防守階段"
+    ],
+    "keywords": [],
+    "effect_text": "使敵方1魔法卡無效化（須在打出當下使用），或使1單位被賦予不會被敵方魔法卡選為目標。",
+    "image": "/static/card_images/vlg_18.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ],
+    "attack": "0",
+    "tribute": 0,
+    "score": 0
+  },
+  {
+    "id": "VLG_019",
+    "name": "魔法反制",
+    "deck": "妖怪村莊",
+    "type": "magic",
+    "faction": "妖怪村莊",
+    "magic_type": "消耗",
+    "magic_point": 3,
+    "timing": [
+      "敵方階段"
+    ],
+    "keywords": [],
+    "effect_text": "使敵方1魔法卡無效化（須在打出當下使用）。",
+    "image": "/static/card_images/vlg_19.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ],
+    "attack": "0",
+    "tribute": 0,
+    "score": 0
+  },
+  {
+    "id": "VLG_020",
+    "name": "魔抗鐵拳",
+    "deck": "妖怪村莊",
+    "type": "magic",
+    "faction": "妖怪村莊",
+    "magic_type": "消耗",
+    "magic_point": 1,
+    "timing": [
+      "主要階段"
+    ],
+    "keywords": [],
+    "effect_text": "使1單位被賦予2選1：+1攻擊力或-1攻擊力，及不會被魔法卡選為目標直到下個敵方主要階段開始前。",
+    "image": "/static/card_images/vlg_20.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ],
+    "attack": "0",
+    "tribute": 0,
+    "score": 0
+  },
+  {
+    "id": "VR-CAT-0004",
+    "name": "虎老大 VR",
+    "race": "喵喵賊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "偷襲"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "喵喵賊",
+    "faction": "喵喵賊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/cat_0004.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "VR-XLW-S0003",
+    "name": "雪女 VR",
+    "race": "妖怪村莊",
+    "type": "unit",
+    "attack": 0,
+    "reward": null,
+    "tribute": 0,
+    "effect": "",
+    "keywords": [
+      "獻祭"
+    ],
+    "variant": true,
+    "deck_eligible": true,
+    "deck": "妖怪村莊",
+    "faction": "妖怪村莊",
+    "score": 0,
+    "effect_text": "",
+    "image": "/static/card_images/xlw_s0003.jpeg",
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  },
+  {
+    "id": "XLW-S0003",
+    "name": "CPU過載",
+    "deck": "中立",
+    "type": "magic",
+    "faction": "中立",
+    "race": "中立",
+    "attack": 0,
+    "score": 0,
+    "tribute": 0,
+    "keywords": [
+      "中立",
+      "消耗"
+    ],
+    "effect_text": "若敵方場上單位數量大於你5個或以上，則使敵方場上2個⭐為2或以下的單位被破壞",
+    "image": "/static/card_images/xlw_s0003.jpeg",
+    "original_file": "中立單位/IMG_5676.JPG",
+    "deck_eligible": true,
+    "mana": 0,
+    "usable_phases": [
+      "召喚階段"
+    ]
+  }
+]
