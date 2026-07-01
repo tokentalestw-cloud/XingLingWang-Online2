@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>星靈王 Web Final - 卡牌對戰</title>
+  <link rel="stylesheet" href="/static/style_v8.css?v=8.43-mobile-hand-score-extra">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;900&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    window.onerror = function(message, source, lineno, colno, error) {
+      const errorDiv = document.createElement('div');
+      errorDiv.id = 'xlw-global-error-overlay';
+      errorDiv.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(20,0,0,0.97);color:#ff6b6b;z-index:9999999;padding:40px;font-family:monospace;font-size:18px;line-height:1.6;overflow:auto;box-sizing:border-box;border:5px solid red;';
+      errorDiv.innerHTML = `
+        <h1 style="color:red;margin-top:0;">🛑 偵測到 JavaScript 執行錯誤！</h1>
+        <p><b>錯誤訊息：</b> ${message}</p>
+        <p><b>檔案來源：</b> ${source}</p>
+        <p><b>行號：</b> ${lineno} | <b>列號：</b> ${colno}</p>
+        <p><b>堆疊追蹤 (Stack Trace)：</b></p>
+        <pre style="background:rgba(0,0,0,0.5);padding:15px;border-radius:6px;color:#fff;overflow:auto;white-space:pre-wrap;">${error ? error.stack : '無堆疊資訊'}</pre>
+        <button onclick="location.reload(true)" style="background:red;color:white;border:none;padding:10px 20px;font-size:16px;font-weight:bold;cursor:pointer;border-radius:4px;margin-top:20px;">強制重新整理網頁</button>
+      `;
+      const showErr = () => { (document.body || document.documentElement).appendChild(errorDiv); };
+      if (document.body) { showErr(); } else { window.addEventListener('DOMContentLoaded', showErr); }
+      return false;
+    };
+    window.addEventListener('unhandledrejection', function(event) {
+      const reason = event.reason;
+      const errorDiv = document.createElement('div');
+      errorDiv.id = 'xlw-global-error-overlay';
+      errorDiv.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(20,0,0,0.97);color:#ff6b6b;z-index:9999999;padding:40px;font-family:monospace;font-size:18px;line-height:1.6;overflow:auto;box-sizing:border-box;border:5px solid red;';
+      errorDiv.innerHTML = `
+        <h1 style="color:red;margin-top:0;">🛑 偵測到未處理的 Promise 拒絕錯誤！</h1>
+        <p><b>拒絕原因：</b> ${reason}</p>
+        <p><b>堆疊追蹤 (Stack Trace)：</b></p>
+        <pre style="background:rgba(0,0,0,0.5);padding:15px;border-radius:6px;color:#fff;overflow:auto;white-space:pre-wrap;">${reason && reason.stack ? reason.stack : '無堆疊資訊'}</pre>
+        <button onclick="location.reload(true)" style="background:red;color:white;border:none;padding:10px 20px;font-size:16px;font-weight:bold;cursor:pointer;border-radius:4px;margin-top:20px;">強制重新整理網頁</button>
+      `;
+      const showErr = () => { (document.body || document.documentElement).appendChild(errorDiv); };
+      if (document.body) { showErr(); } else { window.addEventListener('DOMContentLoaded', showErr); }
+    });
+  </script>
+</head>
+<body>
+
+  <!-- 上方導航工具列 -->
+  <header class="topbar topbar-cleaned-final">
+    <div class="title" style="font-family: 'Cinzel', serif;">XingLingWang</div>
+    <select id="factionSelect" aria-label="選擇種族" style="background: rgba(255, 255, 255, 0.85); color: #1e293b; border: 1.5px solid rgba(205, 170, 82, 0.45); border-radius: 6px; padding: 4px 8px; font-size: 14px; font-weight: bold; cursor: pointer; transition: all 0.25s ease;">
+      <option value="藝術品">藝術品</option>
+      <option value="喵喵賊">喵喵賊</option>
+      <option value="妖怪村莊">妖怪村莊</option>
+      <option value="獸人">獸人</option>
+      <option value="虛擬世界">虛擬世界</option>
+    </select>
+    <select id="deckSelect" aria-label="選擇牌組" style="background: rgba(255, 255, 255, 0.85); color: #1e293b; border: 1.5px solid rgba(205, 170, 82, 0.45); border-radius: 6px; padding: 4px 8px; font-size: 14px; font-weight: bold; cursor: pointer; transition: all 0.25s ease; margin-left: 5px;">
+      <!-- populated dynamically -->
+    </select>
+    <button id="newGameBtn" onclick="newGame()">單人對抗 AI</button>
+    <button id="multiplayerBtn" onclick="showMultiplayerLobby()" style="background: linear-gradient(135deg, #d4af37, #ffd76a); color: #070505; border: none; padding: 8px 15px; font-size: 14px; font-weight: bold; border-radius: 6px; cursor: pointer; transition: all 0.25s; margin-left: 5px; box-shadow: 0 0 10px rgba(255, 215, 106, 0.2);">線上雙人對決</button>
+    <button id="scoreBtn">戰局紀錄</button>
+    <a href="/static/deck_builder.html?v=8.12" style="text-decoration: none; display: inline-block; margin-left: 5px;">
+      <button type="button" style="background: rgba(255, 215, 106, 0.08); color: #ffd76a; border: 1px solid rgba(255, 215, 106, 0.35); padding: 8px 15px; font-size: 14px; font-weight: bold; border-radius: 6px; cursor: pointer; transition: all 0.25s;">牌組編輯器</button>
+    </a>
+    <a href="/static/admin.html" style="text-decoration: none; display: inline-block; margin-left: 5px;">
+      <button type="button" style="background: rgba(255, 215, 106, 0.08); color: #ffd76a; border: 1px solid rgba(255, 215, 106, 0.35); padding: 8px 15px; font-size: 14px; font-weight: bold; border-radius: 6px; cursor: pointer; transition: all 0.25s;">卡牌編輯器</button>
+    </a>
+    <div class="topbar-info-badge">回合: <span id="turn">1</span></div>
+    <div class="topbar-info-badge">手牌: <span id="handCount">0</span>/10</div>
+    <span id="status"></span>
+  </header>
+
+  <!-- 中上方獨立階段狀態提示板 -->
+  <div id="phaseDisplayPanelHard" class="phase-display-panel-hard">
+    <div class="phase-hard-title">目前階段：<span id="phaseTextHard">召喚階段</span></div>
+    <div class="phase-hard-help" id="phaseHelpHard">可進行單位召喚、祭品召喚或發動手牌魔法。</div>
+  </div>
+
+  <div class="game-shell">
+    <div class="board-wrap">
+      <section id="boardWrap" class="board">
+        <!-- 左側卡牌詳細資訊看板 -->
+        <aside id="xlwLeftCardPanel" class="xlw-left-card-panel" onclick="this.style.display='none'">
+          <div class="panel-inner">
+            <div id="leftPanelPlaceholder" class="placeholder-text">點擊卡牌<br>在此放大 4 倍顯示</div>
+            <div id="leftCardDetailView" class="card-detail-view" style="display: none;">
+              <div class="detail-img-wrap">
+                <img id="leftPanelImg" src="" alt="card detail image">
+              </div>
+            </div>
+          </div>
+        </aside>
+        
+        <!-- 對手功能區域 (左側) -->
+        <div id="enemyDeck" class="zone side dark">對手牌庫</div>
+        <div id="enemyGrave" class="zone side dark">對手墓地</div>
+        <div id="enemyRace" class="zone side red">對手種族</div>
+        <div id="enemyExile" class="zone side dark">對手除外</div>
+        <div id="enemyExtraDeck" class="zone side purple" style="display: none;">對手額外</div>
+
+        <!-- 對手戰場行 (後排/前排) -->
+        <div class="row enemy-back"></div>
+        <div class="row enemy-front"></div>
+
+        <!-- 對手功能區域 (右側) -->
+        <div id="enemyField" class="zone side green">場地區</div>
+        <div id="enemyForest" class="zone side green">
+          <div class="forest-3d-wrap">
+            <div class="forest-3d-bg"></div>
+            <div class="forest-3d-trees"></div>
+            <div class="traveler-3d-standee">
+              <img src="/static/little_traveler.jpeg" class="traveler-3d-img" alt="小旅人">
+            </div>
+          </div>
+          <div class="forest-3d-overlay">
+            <span>對手森林區<br>小旅人∞</span>
+          </div>
+        </div>
+
+        <!-- 中央星星對決戰線 -->
+        <div id="battleLine" class="battle-line-strip">
+          <div class="battle-cell" data-index="0">★1</div>
+          <div class="battle-cell" data-index="1">★2</div>
+          <div class="battle-cell" data-index="2">★3</div>
+          <div class="battle-cell" data-index="3">★4</div>
+          <div class="battle-cell" data-index="4">★5</div>
+        </div>
+
+        <!-- 我方功能區域 (左側) -->
+        <div id="playerField" class="zone side green">我方場地</div>
+        <div id="playerForest" class="zone side green" onclick="triggerLittleTraveler(event)">
+          <div class="forest-3d-wrap">
+            <div class="forest-3d-bg"></div>
+            <div class="forest-3d-trees"></div>
+            <div class="traveler-3d-standee">
+              <img src="/static/little_traveler.jpeg" class="traveler-3d-img" alt="小旅人">
+            </div>
+          </div>
+          <div class="forest-3d-overlay">
+            <span>我方森林區<br><small style="font-size: 11px; opacity: 0.85; letter-spacing: 0.5px;">小旅人 ∞</small></span>
+          </div>
+        </div>
+
+        <!-- 我方戰場行 (前排/後排) -->
+        <div class="row player-front"></div>
+        <div class="row player-back"></div>
+
+        <!-- 我方功能區域 (右側) -->
+        <div id="playerGrave" class="zone side dark">我方墓地</div>
+        <div id="playerDeck" class="zone side blue">我方牌庫</div>
+        <div id="playerRace" class="zone side blue">我方種族</div>
+        <div id="playerExile" class="zone side dark">我方除外</div>
+        <div id="playerExtraDeck" class="zone side purple" style="display: none;" onclick="showPlayerExtraDeck()">我方額外</div>
+
+      </section>
+    </div>
+  </div>
+
+  <!-- 底部手牌面板 -->
+  <section class="hand-panel">
+    <div class="hand-title">我方<br>手牌</div>
+    <div id="hand" class="hand"></div>
+  </section>
+  
+  <!-- 戰對統計與歷史紀錄彈窗 -->
+  <div id="scorePanel" class="score-panel">
+    <div class="score-box">
+      <button id="closeScorePanel" class="close">×</button>
+      <h2 style="color: #ffd76a; text-align: center; margin-top: 0; font-family: 'Cinzel', serif;">BATTLE SCORE STATUS</h2>
+      
+      <div class="score-row">
+        <b>我方總得分</b>
+        <span><span id="xlwPlayerScore" style="color: #ffd76a; font-weight: bold;">0</span> ★</span>
+      </div>
+      <div class="score-row">
+        <b>對手總得分</b>
+        <span><span id="xlwEnemyScore" style="color: #ff5c5c; font-weight: bold;">0</span> ★</span>
+      </div>
+      
+      <h3 style="color: #cdaa52; margin-top: 20px;">戰鬥歷史紀錄</h3>
+      <div id="xlwBattleLogContent" class="battle-log"></div>
+    </div>
+  </div>
+
+  <!-- 線上對戰大廳配對彈窗 -->
+  <div id="multiplayerLobby" class="score-panel" style="display: none; justify-content: center; align-items: center; background: rgba(0,0,0,0.85); z-index: 10000; position: fixed; top: 0; left: 0; width: 100%; height: 100%;">
+    <div class="score-box" style="width: 420px; padding: 25px; border: 2px solid #ffd76a; border-radius: 12px; background: rgba(15, 11, 11, 0.95); box-shadow: 0 10px 40px rgba(0,0,0,0.95); font-family: 'Outfit', sans-serif;">
+      <button onclick="hideMultiplayerLobby()" class="close" style="background: transparent; border: none; color: #ff5c5c; font-size: 24px; cursor: pointer; float: right; margin-top: -10px;">×</button>
+      <h2 style="color: #ffd76a; text-align: center; margin-bottom: 20px; font-family: 'Cinzel', serif; letter-spacing: 0.5px;">ONLINE MULTIPLAYER</h2>
+      
+      <div class="lobby-section" style="display: flex; flex-direction: column; gap: 15px; margin-bottom: 15px;">
+        <!-- 創建房間 -->
+        <div class="lobby-action-card" style="padding: 15px; border: 1px solid rgba(255,215,106,0.15); border-radius: 8px; background: rgba(255,255,255,0.02); text-align: center;">
+          <h3 style="color: #ffd76a; margin-bottom: 10px; font-size: 15px;">創立新的對戰房間</h3>
+          <button onclick="createOnlineRoom()" style="background: linear-gradient(135deg, #d4af37, #ffd76a); border: none; color: #070505; font-weight: bold; padding: 8px 20px; border-radius: 6px; cursor: pointer; transition: all 0.3s;">創立房間</button>
+        </div>
+        
+        <div style="text-align: center; color: rgba(255,255,255,0.3); font-size: 12px;">— 或 —</div>
+        
+        <!-- 加入房間 -->
+        <div class="lobby-action-card" style="padding: 15px; border: 1px solid rgba(255,215,106,0.15); border-radius: 8px; background: rgba(255,255,255,0.02); text-align: center; display: flex; flex-direction: column; align-items: center; gap: 10px;">
+          <h3 style="color: #ffd76a; margin-bottom: 0px; font-size: 15px;">加入好友的房間</h3>
+          <div style="display: flex; gap: 8px; width: 100%; max-width: 260px;">
+            <input type="text" id="lobbyRoomIdInput" placeholder="請輸入 4 位房號" maxlength="6" style="flex: 1; padding: 8px; border: 1px solid #ffd76a; border-radius: 6px; background: rgba(0,0,0,0.5); color: #fff; text-align: center; font-weight: bold; outline: none;">
+            <button onclick="joinOnlineRoom()" style="background: rgba(255, 215, 106, 0.08); border: 1px solid #ffd76a; color: #ffd76a; font-weight: bold; padding: 8px 15px; border-radius: 6px; cursor: pointer; transition: all 0.3s;">加入對局</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 動態連線狀態提示 -->
+      <div id="lobbyStatusArea" style="display: none; text-align: center; padding: 15px; border-top: 1px solid rgba(255,215,106,0.1); margin-top: 15px;">
+        <div id="lobbyStatusSpinner" class="spinner" style="border: 3px solid rgba(255,215,106,0.1); border-radius: 50%; border-top: 3px solid #ffd76a; width: 24px; height: 24px; animation: spin 1s linear infinite; margin: 0 auto 10px;"></div>
+        <p id="lobbyStatusText" style="color: #ffd76a; font-size: 13px; font-weight: bold;"></p>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+
+  <script>
+    function showMultiplayerLobby() {
+      document.getElementById('multiplayerLobby').style.display = 'flex';
+      document.getElementById('lobbyStatusArea').style.display = 'none';
+    }
+    
+    function hideMultiplayerLobby() {
+      document.getElementById('multiplayerLobby').style.display = 'none';
+    }
+    
+    function createOnlineRoom() {
+      const roomId = Math.floor(1000 + Math.random() * 9000);
+      const playerId = 'host_' + Math.floor(Math.random() * 10000);
+      const deckSelect = document.getElementById("deckSelect");
+      const deckName = deckSelect ? deckSelect.value : "";
+      
+      document.getElementById('lobbyStatusArea').style.display = 'block';
+      document.getElementById('lobbyStatusText').textContent = `正在建立房號為 ${roomId} 的對戰房間，等待對手加入...`;
+      
+      setTimeout(() => {
+        window.location.href = `/?room=${roomId}&player=${playerId}&role=player1&deck=${encodeURIComponent(deckName)}`;
+      }, 1000);
+    }
+    
+    function joinOnlineRoom() {
+      const input = document.getElementById('lobbyRoomIdInput');
+      const roomId = input.value.trim();
+      if (!roomId) {
+        alert("請輸入有效的房號！");
+        return;
+      }
+      
+      const deckSelect = document.getElementById("deckSelect");
+      const deckName = deckSelect ? deckSelect.value : "";
+      
+      const playerId = 'guest_' + Math.floor(Math.random() * 10000);
+      document.getElementById('lobbyStatusArea').style.display = 'block';
+      document.getElementById('lobbyStatusText').textContent = `正在連接房號為 ${roomId} 的對戰房間，請稍候...`;
+      
+      setTimeout(() => {
+        window.location.href = `/?room=${roomId}&player=${playerId}&role=player2&deck=${encodeURIComponent(deckName)}`;
+      }, 1000);
+    }
+  </script>
+
+  <!-- 導入核心重構對戰引擎 -->
+  <script src="/static/game_v8.js?v=8.48-mobile-hand-score-extra-v4" charset="utf-8"></script>
+
+</body>
+</html>

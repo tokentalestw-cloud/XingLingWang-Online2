@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+.env
+*.log
+scratch/
+transcribe_cards.py
+test_gemini_key.py
+.git/

@@ -1,0 +1,316 @@
+{
+  "藝術品卡片數": 62,
+  "圖片檔數": 62,
+  "cards": [
+    {
+      "id": "ART-0001",
+      "name": "萌娜麗莎的大笑",
+      "image": "/static/card_images/art_0001.jpeg"
+    },
+    {
+      "id": "ART-0002",
+      "name": "大鵰像",
+      "image": "/static/card_images/art_0002.jpeg"
+    },
+    {
+      "id": "ART-0003",
+      "name": "沉思的男人",
+      "image": "/static/card_images/art_0003.jpeg"
+    },
+    {
+      "id": "ART-0004",
+      "name": "吶喊的人",
+      "image": "/static/card_images/art_0004.jpeg"
+    },
+    {
+      "id": "ART-0005",
+      "name": "鎧甲擺件",
+      "image": "/static/card_images/art_0005.jpeg"
+    },
+    {
+      "id": "ART-0006",
+      "name": "了讚的藝術收藏家",
+      "image": "/static/card_images/art_0006.jpeg"
+    },
+    {
+      "id": "ART-0007",
+      "name": "兩位陌生人",
+      "image": "/static/card_images/art_0007.jpeg"
+    },
+    {
+      "id": "ART-0008",
+      "name": "珍珠少女",
+      "image": "/static/card_images/art_0008.jpeg"
+    },
+    {
+      "id": "ART-0009",
+      "name": "梵老爹",
+      "image": "/static/card_images/art_0009.jpeg"
+    },
+    {
+      "id": "ART-0010",
+      "name": "向日葵小妹",
+      "image": "/static/card_images/art_0010.jpeg"
+    },
+    {
+      "id": "ART-0011",
+      "name": "拿波崙",
+      "image": "/static/card_images/art_0011.jpeg"
+    },
+    {
+      "id": "ART-0012",
+      "name": "頸部痠痛的女人",
+      "image": "/static/card_images/art_0012.jpeg"
+    },
+    {
+      "id": "ART-0013",
+      "name": "創世男孩",
+      "image": "/static/card_images/art_0013.jpeg"
+    },
+    {
+      "id": "ART-0014",
+      "name": "創世老人",
+      "image": "/static/card_images/art_0014.jpeg"
+    },
+    {
+      "id": "ART-0015",
+      "name": "番茄之子",
+      "image": "/static/card_images/art_0015.jpeg"
+    },
+    {
+      "id": "ART-0016",
+      "name": "摩艾石巨像",
+      "image": "/static/card_images/art_0016.jpeg"
+    },
+    {
+      "id": "ART-0017",
+      "name": "尿尿小男童",
+      "image": "/static/card_images/art_0017.jpeg"
+    },
+    {
+      "id": "ART-0018",
+      "name": "畫框",
+      "image": "/static/card_images/art_0018.jpeg"
+    },
+    {
+      "id": "ART-0019",
+      "name": "博物館",
+      "image": "/static/card_images/art_0019.jpeg"
+    },
+    {
+      "id": "ART-0020",
+      "name": "星空",
+      "image": "/static/card_images/art_0020.jpeg"
+    },
+    {
+      "id": "ART-0021",
+      "name": "拾穗者",
+      "image": "/static/card_images/art_0021.jpeg"
+    },
+    {
+      "id": "ART-0022",
+      "name": "紅色顏料",
+      "image": "/static/card_images/art_0022.jpeg"
+    },
+    {
+      "id": "ART-0023",
+      "name": "綠色顏料",
+      "image": "/static/card_images/art_0023.jpeg"
+    },
+    {
+      "id": "ART-0024",
+      "name": "藍色顏料",
+      "image": "/static/card_images/art_0024.jpeg"
+    },
+    {
+      "id": "ART-0025",
+      "name": "牆壁上的香蕉",
+      "image": "/static/card_images/art_0025.jpeg"
+    },
+    {
+      "id": "ART-0026",
+      "name": "和平使者 耶叔",
+      "image": "/static/card_images/art_0026.jpeg"
+    },
+    {
+      "id": "ART-0027",
+      "name": "最後的下午茶",
+      "image": "/static/card_images/art_0027.jpeg"
+    },
+    {
+      "id": "ART-0028",
+      "name": "最後的宵夜",
+      "image": "/static/card_images/art_0028.jpeg"
+    },
+    {
+      "id": "ART-0029",
+      "name": "最後的中餐",
+      "image": "/static/card_images/art_0029.jpeg"
+    },
+    {
+      "id": "ART-0030",
+      "name": "最後的早餐",
+      "image": "/static/card_images/art_0030.jpeg"
+    },
+    {
+      "id": "ART-0031",
+      "name": "博物館保全",
+      "image": "/static/card_images/art_0031.jpeg"
+    },
+    {
+      "id": "ART-0032",
+      "name": "實習畫家",
+      "image": "/static/card_images/art_0032.jpeg"
+    },
+    {
+      "id": "ART-0033",
+      "name": "流浪畫家",
+      "image": "/static/card_images/art_0033.jpeg"
+    },
+    {
+      "id": "ART-0034",
+      "name": "前台服務生",
+      "image": "/static/card_images/art_0034.jpeg"
+    },
+    {
+      "id": "ART-0035",
+      "name": "香蕉猴",
+      "image": "/static/card_images/art_0035.jpeg"
+    },
+    {
+      "id": "ART-0036",
+      "name": "黑心網路賣家",
+      "image": "/static/card_images/art_0036.jpeg"
+    },
+    {
+      "id": "ART-0037",
+      "name": "牽性龐克",
+      "image": "/static/card_images/art_0037.jpeg"
+    },
+    {
+      "id": "ART-0038",
+      "name": "金衣服的女人",
+      "image": "/static/card_images/art_0038.jpeg"
+    },
+    {
+      "id": "ART-0039",
+      "name": "博物館館長 迪斯麥",
+      "image": "/static/card_images/art_0039.jpeg"
+    },
+    {
+      "id": "ART-0040",
+      "name": "詛咒斷臂雕像",
+      "image": "/static/card_images/art_0040.jpeg"
+    },
+    {
+      "id": "ART-0041",
+      "name": "博物館接待員",
+      "image": "/static/card_images/art_0041.jpeg"
+    },
+    {
+      "id": "ART-0042",
+      "name": "哭泣女人",
+      "image": "/static/card_images/art_0042.jpeg"
+    },
+    {
+      "id": "ART-0043",
+      "name": "蜘蛛魔盜團團長 芙蘭",
+      "image": "/static/card_images/art_0043.jpeg"
+    },
+    {
+      "id": "ART-0044",
+      "name": "太極雕像",
+      "image": "/static/card_images/art_0044.jpeg"
+    },
+    {
+      "id": "ART-0045",
+      "name": "調色盤",
+      "image": "/static/card_images/art_0045.jpeg"
+    },
+    {
+      "id": "ART-0046",
+      "name": "牆壁上的塗鴉",
+      "image": "/static/card_images/art_0046.jpeg"
+    },
+    {
+      "id": "ART-0047",
+      "name": "最後的麵包與酒",
+      "image": "/static/card_images/art_0047.jpeg"
+    },
+    {
+      "id": "ART-0048",
+      "name": "守護的斷臂雕像",
+      "image": "/static/card_images/art_0048.jpeg"
+    },
+    {
+      "id": "ART-0049",
+      "name": "顏料藝術家",
+      "image": "/static/card_images/art_0049.jpeg"
+    },
+    {
+      "id": "ART-0050",
+      "name": "博物館剪票員",
+      "image": "/static/card_images/art_0050.jpeg"
+    },
+    {
+      "id": "ART-0051",
+      "name": "翡翠白菜",
+      "image": "/static/card_images/art_0051.jpeg"
+    },
+    {
+      "id": "ART-0052",
+      "name": "蜘蛛魔盜團 千面",
+      "image": "/static/card_images/art_0052.jpeg"
+    },
+    {
+      "id": "ART-0053",
+      "name": "蜘蛛魔盜團 銷贓",
+      "image": "/static/card_images/art_0053.jpeg"
+    },
+    {
+      "id": "ART-0054",
+      "name": "蜘蛛魔盜團間諜 迪斯麥",
+      "image": "/static/card_images/art_0054.jpeg"
+    },
+    {
+      "id": "ART-0055",
+      "name": "蜘蛛魔盜團 鎖頭",
+      "image": "/static/card_images/art_0055.jpeg"
+    },
+    {
+      "id": "ART-0056",
+      "name": "蜘蛛魔盜團 換日",
+      "image": "/static/card_images/art_0056.jpeg"
+    },
+    {
+      "id": "ART-0057",
+      "name": "蜘蛛魔盜團 抓手",
+      "image": "/static/card_images/art_0057.jpeg"
+    },
+    {
+      "id": "ART-0058",
+      "name": "蜘蛛魔盜團 駭客",
+      "image": "/static/card_images/art_0058.jpeg"
+    },
+    {
+      "id": "ART-0059",
+      "name": "始皇帝",
+      "image": "/static/card_images/art_0059.jpeg"
+    },
+    {
+      "id": "ART-0060",
+      "name": "戰士陶俑",
+      "image": "/static/card_images/art_0060.jpeg"
+    },
+    {
+      "id": "ART-0061",
+      "name": "三腳鼎",
+      "image": "/static/card_images/art_0061.jpeg"
+    },
+    {
+      "id": "ART-0062",
+      "name": "害羞的斑點南瓜",
+      "image": "/static/card_images/art_0062.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+Line 6443: } else if (data.action === "extra_summon_resolved") {
+Line 8581: action: "extra_summon_resolved",
+Line 8663: action: "extra_summon_resolved",
